@@ -1,6 +1,22 @@
+现象 控制 应用
+
+---------------------------------------------------
+
 功利性选择会提高生理唤醒（1-s2.0-S1090513817300831-main）
 
 有认知负荷时，在拒绝和接受时有明显差别 在Personal情况
+
+道德学习是自发的还是社会的（Conceptual foundations and normative relevance）
+
+现实意义：自动驾驶小车（Faulhaber2018_Article_HumanDecisionsInMoralDilemmasA）
+
+==要用场景来显示（fpsyg-05-00035）==，现实生活例子：智力游戏；生活和假设不一样
+
+认知风格 人格 （认知风格量表）认知风格：“想到其他解释”，或“想出反对你命题的理由”。 
+
+决策能力：预测结果，选择选项，抵抗框架效应 
+
+测量方法：A-DMC量表，doi
 
 # Clarion cognitive architecture
 
