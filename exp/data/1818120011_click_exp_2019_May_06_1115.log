@@ -1,0 +1,1475 @@
+31.1602 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color='white', colorSpace='named', fullscr=UNKNOWN, gamma=None, kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x1F0430F0>, multiSample=False, name='window1', numSamples=2, pos=[0, 0], screen=0, size=array([1920, 1080]), stereo=False, units=u'norm', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType=u'pyglet')
+31.1604 	EXP 	window1: recordFrameIntervals = False
+31.3258 	EXP 	window1: recordFrameIntervals = True
+31.5100 	EXP 	window1: recordFrameIntervals = False
+31.8860 	EXP 	Created wel_text = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Consolas', fontFiles=[], height=0.1, italic=False, name='wel_text', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 0.,  0.,  0.]), text=newstr(...), units=u'norm', win=Window(...), wrapWidth=1)
+31.8912 	EXP 	Created image_practice = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image_practice', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 0.45,  0.8 ]), texRes=128, units=u'norm', win=Window(...))
+31.9177 	EXP 	Created point_prac = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='point_prac', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 0.,  0.,  0.]), text='+', units=u'norm', win=Window(...), wrapWidth=1)
+31.9737 	EXP 	Created text_base = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Consolas', fontFiles=[], height=0.1, italic=False, name='text_base', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 0.,  0.,  0.]), text=newstr(...), units=u'norm', win=Window(...), wrapWidth=1)
+31.9793 	EXP 	Created huan_point = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='huan_point', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 0.,  0.,  0.]), text='+', units=u'norm', win=Window(...), wrapWidth=1)
+31.9830 	EXP 	Created image_huan = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image_huan', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 0.45,  0.8 ]), texRes=128, units=u'norm', win=Window(...))
+31.9889 	EXP 	Created point_base = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='point_base', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 0.,  0.,  0.]), text='+', units=u'norm', win=Window(...), wrapWidth=1)
+31.9928 	EXP 	Created image_base = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image_base', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 0.45,  0.8 ]), texRes=128, units=u'norm', win=Window(...))
+31.9984 	EXP 	Created point_for = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='point_for', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 0.,  0.,  0.]), text='+', units=u'norm', win=Window(...), wrapWidth=1)
+32.0025 	EXP 	Created image_for = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image_for', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 0.45,  0.8 ]), texRes=128, units=u'norm', win=Window(...))
+32.0185 	EXP 	wel_text: autoDraw = True
+51.7641 	DATA 	Keypress: space
+51.7900 	EXP 	Imported pic\prac_click.csv as conditions, 47 conditions, 4 params
+51.7921 	EXP 	Created sequence: random, trialTypes=47, nReps=1, seed=None
+51.7937 	EXP 	New trial (rep=0, index=0): OrderedDict([('no', 13), ('pic', u'pic/4.png'), ('cla', u'practice'), ('ans', ['num_4'])])
+51.8846 	EXP 	wel_text: autoDraw = False
+51.8846 	EXP 	image_practice: image = u'pic/4.png'
+51.8846 	EXP 	point_prac: autoDraw = True
+52.9201 	EXP 	image_practice: autoDraw = True
+52.9201 	EXP 	point_prac: autoDraw = False
+53.8001 	DATA 	Keypress: num_4
+53.8044 	EXP 	New trial (rep=0, index=1): OrderedDict([('no', 29), ('pic', u'pic/2.png'), ('cla', u'practice'), ('ans', ['num_2'])])
+53.8858 	EXP 	image_practice: autoDraw = False
+53.8858 	EXP 	point_prac: autoDraw = False
+53.8858 	EXP 	image_practice: image = u'pic/2.png'
+53.8858 	EXP 	point_prac: autoDraw = True
+54.8153 	EXP 	point_prac: autoDraw = False
+54.8324 	EXP 	image_practice: autoDraw = True
+55.5536 	DATA 	Keypress: num_2
+55.5711 	EXP 	New trial (rep=0, index=2): OrderedDict([('no', 8), ('pic', u'pic/8.png'), ('cla', u'practice'), ('ans', ['num_8'])])
+55.6680 	EXP 	image_practice: autoDraw = False
+55.6680 	EXP 	point_prac: autoDraw = False
+55.6680 	EXP 	image_practice: image = u'pic/8.png'
+55.6680 	EXP 	point_prac: autoDraw = True
+56.5841 	EXP 	point_prac: autoDraw = False
+56.6006 	EXP 	image_practice: autoDraw = True
+57.4696 	DATA 	Keypress: num_8
+57.4729 	EXP 	New trial (rep=0, index=3): OrderedDict([('no', 45), ('pic', u'pic/9.png'), ('cla', u'practice'), ('ans', ['num_9'])])
+57.5676 	EXP 	image_practice: autoDraw = False
+57.5676 	EXP 	point_prac: autoDraw = False
+57.5676 	EXP 	image_practice: image = u'pic/9.png'
+57.5676 	EXP 	point_prac: autoDraw = True
+58.4859 	EXP 	point_prac: autoDraw = False
+58.5026 	EXP 	image_practice: autoDraw = True
+59.2387 	DATA 	Keypress: num_9
+59.2425 	EXP 	New trial (rep=0, index=4): OrderedDict([('no', 10), ('pic', u'pic/1.png'), ('cla', u'practice'), ('ans', ['num_1'])])
+59.3438 	EXP 	image_practice: autoDraw = False
+59.3438 	EXP 	point_prac: autoDraw = False
+59.3438 	EXP 	image_practice: image = u'pic/1.png'
+59.3438 	EXP 	point_prac: autoDraw = True
+60.2544 	EXP 	point_prac: autoDraw = False
+60.2716 	EXP 	image_practice: autoDraw = True
+60.9398 	DATA 	Keypress: num_1
+60.9435 	EXP 	New trial (rep=0, index=5): OrderedDict([('no', 46), ('pic', u'pic/8.png'), ('cla', u'practice'), ('ans', ['num_8'])])
+61.0427 	EXP 	image_practice: autoDraw = False
+61.0427 	EXP 	point_prac: autoDraw = False
+61.0427 	EXP 	image_practice: image = u'pic/8.png'
+61.0427 	EXP 	point_prac: autoDraw = True
+61.9565 	EXP 	point_prac: autoDraw = False
+61.9731 	EXP 	image_practice: autoDraw = True
+62.7080 	DATA 	Keypress: num_8
+62.7113 	EXP 	New trial (rep=0, index=6): OrderedDict([('no', 18), ('pic', u'pic/9.png'), ('cla', u'practice'), ('ans', ['num_9'])])
+62.8102 	EXP 	image_practice: autoDraw = False
+62.8102 	EXP 	point_prac: autoDraw = False
+62.8102 	EXP 	image_practice: image = u'pic/9.png'
+62.8102 	EXP 	point_prac: autoDraw = True
+63.7244 	EXP 	point_prac: autoDraw = False
+63.7412 	EXP 	image_practice: autoDraw = True
+64.7604 	DATA 	Keypress: num_9
+64.7652 	EXP 	New trial (rep=0, index=7): OrderedDict([('no', 3), ('pic', u'pic/3.png'), ('cla', u'practice'), ('ans', ['num_3'])])
+64.8629 	EXP 	image_practice: autoDraw = False
+64.8629 	EXP 	point_prac: autoDraw = False
+64.8629 	EXP 	image_practice: image = u'pic/3.png'
+64.8629 	EXP 	point_prac: autoDraw = True
+65.7768 	EXP 	point_prac: autoDraw = False
+65.7928 	EXP 	image_practice: autoDraw = True
+66.7134 	DATA 	Keypress: num_3
+66.7173 	EXP 	New trial (rep=0, index=8): OrderedDict([('no', 36), ('pic', u'pic/9.png'), ('cla', u'practice'), ('ans', ['num_9'])])
+66.7931 	EXP 	image_practice: autoDraw = False
+66.7931 	EXP 	point_prac: autoDraw = False
+66.7931 	EXP 	image_practice: image = u'pic/9.png'
+66.7931 	EXP 	point_prac: autoDraw = True
+67.7284 	EXP 	point_prac: autoDraw = False
+67.7451 	EXP 	image_practice: autoDraw = True
+68.4494 	DATA 	Keypress: num_9
+68.4673 	EXP 	New trial (rep=0, index=9): OrderedDict([('no', 22), ('pic', u'pic/4.png'), ('cla', u'practice'), ('ans', ['num_4'])])
+68.5415 	EXP 	image_practice: autoDraw = False
+68.5415 	EXP 	point_prac: autoDraw = False
+68.5415 	EXP 	image_practice: image = u'pic/4.png'
+68.5415 	EXP 	point_prac: autoDraw = True
+69.4802 	EXP 	point_prac: autoDraw = False
+69.4970 	EXP 	image_practice: autoDraw = True
+69.9998 	DATA 	Keypress: num_4
+70.0037 	EXP 	New trial (rep=0, index=10): OrderedDict([('no', 26), ('pic', u'pic/8.png'), ('cla', u'practice'), ('ans', ['num_8'])])
+70.1051 	EXP 	image_practice: autoDraw = False
+70.1051 	EXP 	point_prac: autoDraw = False
+70.1051 	EXP 	image_practice: image = u'pic/8.png'
+70.1051 	EXP 	point_prac: autoDraw = True
+71.0151 	EXP 	point_prac: autoDraw = False
+71.0319 	EXP 	image_practice: autoDraw = True
+71.7516 	DATA 	Keypress: num_8
+71.7554 	EXP 	New trial (rep=0, index=11): OrderedDict([('no', 5), ('pic', u'pic/5.png'), ('cla', u'practice'), ('ans', ['num_5'])])
+71.8585 	EXP 	image_practice: autoDraw = False
+71.8585 	EXP 	point_prac: autoDraw = False
+71.8585 	EXP 	image_practice: image = u'pic/5.png'
+71.8585 	EXP 	point_prac: autoDraw = True
+72.7668 	EXP 	point_prac: autoDraw = False
+72.7835 	EXP 	image_practice: autoDraw = True
+73.2863 	DATA 	Keypress: num_5
+73.2901 	EXP 	New trial (rep=0, index=12): OrderedDict([('no', 39), ('pic', u'pic/3.png'), ('cla', u'practice'), ('ans', ['num_3'])])
+73.3822 	EXP 	image_practice: autoDraw = False
+73.3822 	EXP 	point_prac: autoDraw = False
+73.3822 	EXP 	image_practice: image = u'pic/3.png'
+73.3822 	EXP 	point_prac: autoDraw = True
+74.3014 	EXP 	point_prac: autoDraw = False
+74.3184 	EXP 	image_practice: autoDraw = True
+75.1045 	DATA 	Keypress: num_3
+75.1084 	EXP 	New trial (rep=0, index=13): OrderedDict([('no', 37), ('pic', u'pic/1.png'), ('cla', u'practice'), ('ans', ['num_1'])])
+75.1926 	EXP 	image_practice: autoDraw = False
+75.1926 	EXP 	point_prac: autoDraw = False
+75.1926 	EXP 	image_practice: image = u'pic/1.png'
+75.1926 	EXP 	point_prac: autoDraw = True
+76.1201 	EXP 	point_prac: autoDraw = False
+76.1365 	EXP 	image_practice: autoDraw = True
+76.8897 	DATA 	Keypress: num_1
+76.8934 	EXP 	New trial (rep=0, index=14): OrderedDict([('no', 14), ('pic', u'pic/5.png'), ('cla', u'practice'), ('ans', ['num_5'])])
+76.9815 	EXP 	image_practice: autoDraw = False
+76.9815 	EXP 	point_prac: autoDraw = False
+76.9815 	EXP 	image_practice: image = u'pic/5.png'
+76.9815 	EXP 	point_prac: autoDraw = True
+77.9054 	EXP 	point_prac: autoDraw = False
+77.9223 	EXP 	image_practice: autoDraw = True
+78.4074 	DATA 	Keypress: num_5
+78.4108 	EXP 	New trial (rep=0, index=15): OrderedDict([('no', 7), ('pic', u'pic/7.png'), ('cla', u'practice'), ('ans', ['num_7'])])
+78.5109 	EXP 	image_practice: autoDraw = False
+78.5109 	EXP 	point_prac: autoDraw = False
+78.5109 	EXP 	image_practice: image = u'pic/7.png'
+78.5109 	EXP 	point_prac: autoDraw = True
+79.4239 	EXP 	point_prac: autoDraw = False
+79.4406 	EXP 	image_practice: autoDraw = True
+80.0767 	DATA 	Keypress: num_7
+80.0805 	EXP 	New trial (rep=0, index=16): OrderedDict([('no', 31), ('pic', u'pic/4.png'), ('cla', u'practice'), ('ans', ['num_4'])])
+80.1827 	EXP 	image_practice: autoDraw = False
+80.1827 	EXP 	point_prac: autoDraw = False
+80.1827 	EXP 	image_practice: image = u'pic/4.png'
+80.1827 	EXP 	point_prac: autoDraw = True
+81.0913 	EXP 	point_prac: autoDraw = False
+81.1087 	EXP 	image_practice: autoDraw = True
+81.6777 	DATA 	Keypress: num_4
+81.6815 	EXP 	New trial (rep=0, index=17): OrderedDict([('no', 25), ('pic', u'pic/7.png'), ('cla', u'practice'), ('ans', ['num_7'])])
+81.7590 	EXP 	image_practice: autoDraw = False
+81.7590 	EXP 	point_prac: autoDraw = False
+81.7590 	EXP 	image_practice: image = u'pic/7.png'
+81.7590 	EXP 	point_prac: autoDraw = True
+82.6932 	EXP 	point_prac: autoDraw = False
+82.7101 	EXP 	image_practice: autoDraw = True
+83.2812 	DATA 	Keypress: num_7
+83.2997 	EXP 	New trial (rep=0, index=18): OrderedDict([('no', 12), ('pic', u'pic/3.png'), ('cla', u'practice'), ('ans', ['num_3'])])
+83.3960 	EXP 	image_practice: autoDraw = False
+83.3960 	EXP 	point_prac: autoDraw = False
+83.3960 	EXP 	image_practice: image = u'pic/3.png'
+83.3960 	EXP 	point_prac: autoDraw = True
+84.3117 	EXP 	point_prac: autoDraw = False
+84.3279 	EXP 	image_practice: autoDraw = True
+85.0147 	DATA 	Keypress: num_3
+85.0185 	EXP 	New trial (rep=0, index=19): OrderedDict([('no', 9), ('pic', u'pic/9.png'), ('cla', u'practice'), ('ans', ['num_9'])])
+85.1175 	EXP 	image_practice: autoDraw = False
+85.1175 	EXP 	point_prac: autoDraw = False
+85.1175 	EXP 	image_practice: image = u'pic/9.png'
+85.1175 	EXP 	point_prac: autoDraw = True
+86.0297 	EXP 	point_prac: autoDraw = False
+86.0469 	EXP 	image_practice: autoDraw = True
+86.6663 	DATA 	Keypress: num_9
+86.6706 	EXP 	New trial (rep=0, index=20): OrderedDict([('no', 43), ('pic', u'pic/7.png'), ('cla', u'practice'), ('ans', ['num_7'])])
+86.7688 	EXP 	image_practice: autoDraw = False
+86.7688 	EXP 	point_prac: autoDraw = False
+86.7688 	EXP 	image_practice: image = u'pic/7.png'
+86.7688 	EXP 	point_prac: autoDraw = True
+87.6818 	EXP 	point_prac: autoDraw = False
+87.6980 	EXP 	image_practice: autoDraw = True
+88.3005 	DATA 	Keypress: num_7
+88.3043 	EXP 	New trial (rep=0, index=21): OrderedDict([('no', 2), ('pic', u'pic/2.png'), ('cla', u'practice'), ('ans', ['num_2'])])
+88.3996 	EXP 	image_practice: autoDraw = False
+88.3996 	EXP 	point_prac: autoDraw = False
+88.3996 	EXP 	image_practice: image = u'pic/2.png'
+88.3996 	EXP 	point_prac: autoDraw = True
+89.3168 	EXP 	point_prac: autoDraw = False
+89.3329 	EXP 	image_practice: autoDraw = True
+90.5189 	DATA 	Keypress: num_2
+90.5223 	EXP 	New trial (rep=0, index=22): OrderedDict([('no', 27), ('pic', u'pic/9.png'), ('cla', u'practice'), ('ans', ['num_9'])])
+90.6209 	EXP 	image_practice: autoDraw = False
+90.6209 	EXP 	point_prac: autoDraw = False
+90.6209 	EXP 	image_practice: image = u'pic/9.png'
+90.6209 	EXP 	point_prac: autoDraw = True
+91.5365 	EXP 	point_prac: autoDraw = False
+91.5522 	EXP 	image_practice: autoDraw = True
+92.2216 	DATA 	Keypress: num_9
+92.2258 	EXP 	New trial (rep=0, index=23): OrderedDict([('no', 11), ('pic', u'pic/2.png'), ('cla', u'practice'), ('ans', ['num_2'])])
+92.3378 	EXP 	image_practice: autoDraw = False
+92.3378 	EXP 	point_prac: autoDraw = False
+92.3378 	EXP 	image_practice: image = u'pic/2.png'
+92.3378 	EXP 	point_prac: autoDraw = True
+93.2374 	EXP 	point_prac: autoDraw = False
+93.2544 	EXP 	image_practice: autoDraw = True
+93.9232 	DATA 	Keypress: num_2
+93.9270 	EXP 	New trial (rep=0, index=24): OrderedDict([('no', 40), ('pic', u'pic/4.png'), ('cla', u'practice'), ('ans', ['num_4'])])
+94.0257 	EXP 	image_practice: autoDraw = False
+94.0257 	EXP 	point_prac: autoDraw = False
+94.0257 	EXP 	image_practice: image = u'pic/4.png'
+94.0257 	EXP 	point_prac: autoDraw = True
+94.9394 	EXP 	point_prac: autoDraw = False
+94.9561 	EXP 	image_practice: autoDraw = True
+95.3746 	DATA 	Keypress: num_4
+95.3784 	EXP 	New trial (rep=0, index=25): OrderedDict([('no', 23), ('pic', u'pic/5.png'), ('cla', u'practice'), ('ans', ['num_5'])])
+95.4738 	EXP 	image_practice: autoDraw = False
+95.4738 	EXP 	point_prac: autoDraw = False
+95.4738 	EXP 	image_practice: image = u'pic/5.png'
+95.4738 	EXP 	point_prac: autoDraw = True
+96.3908 	EXP 	point_prac: autoDraw = False
+96.4076 	EXP 	image_practice: autoDraw = True
+96.8087 	DATA 	Keypress: num_5
+96.8121 	EXP 	New trial (rep=0, index=26): OrderedDict([('no', 17), ('pic', u'pic/8.png'), ('cla', u'practice'), ('ans', ['num_8'])])
+96.9042 	EXP 	image_practice: autoDraw = False
+96.9042 	EXP 	point_prac: autoDraw = False
+96.9042 	EXP 	image_practice: image = u'pic/8.png'
+96.9042 	EXP 	point_prac: autoDraw = True
+97.8252 	EXP 	point_prac: autoDraw = False
+97.8419 	EXP 	image_practice: autoDraw = True
+98.4438 	DATA 	Keypress: num_8
+98.4477 	EXP 	New trial (rep=0, index=27): OrderedDict([('no', 33), ('pic', u'pic/6.png'), ('cla', u'practice'), ('ans', ['num_6'])])
+98.5390 	EXP 	image_practice: autoDraw = False
+98.5390 	EXP 	point_prac: autoDraw = False
+98.5390 	EXP 	image_practice: image = u'pic/6.png'
+98.5390 	EXP 	point_prac: autoDraw = True
+99.4597 	EXP 	point_prac: autoDraw = False
+99.4769 	EXP 	image_practice: autoDraw = True
+99.8950 	DATA 	Keypress: num_6
+99.8983 	EXP 	New trial (rep=0, index=28): OrderedDict([('no', 42), ('pic', u'pic/6.png'), ('cla', u'practice'), ('ans', ['num_6'])])
+99.9934 	EXP 	image_practice: autoDraw = False
+99.9934 	EXP 	point_prac: autoDraw = False
+99.9934 	EXP 	image_practice: image = u'pic/6.png'
+99.9934 	EXP 	point_prac: autoDraw = True
+100.9116 	EXP 	point_prac: autoDraw = False
+100.9285 	EXP 	image_practice: autoDraw = True
+101.3977 	DATA 	Keypress: num_6
+101.4017 	EXP 	New trial (rep=0, index=29): OrderedDict([('no', 30), ('pic', u'pic/3.png'), ('cla', u'practice'), ('ans', ['num_3'])])
+101.4990 	EXP 	image_practice: autoDraw = False
+101.4990 	EXP 	point_prac: autoDraw = False
+101.4990 	EXP 	image_practice: image = u'pic/3.png'
+101.4990 	EXP 	point_prac: autoDraw = True
+102.4133 	EXP 	point_prac: autoDraw = False
+102.4297 	EXP 	image_practice: autoDraw = True
+103.0154 	DATA 	Keypress: num_3
+103.0194 	EXP 	New trial (rep=0, index=30): OrderedDict([('no', 28), ('pic', u'pic/1.png'), ('cla', u'practice'), ('ans', ['num_1'])])
+103.1174 	EXP 	image_practice: autoDraw = False
+103.1174 	EXP 	point_prac: autoDraw = False
+103.1174 	EXP 	image_practice: image = u'pic/1.png'
+103.1174 	EXP 	point_prac: autoDraw = True
+104.0318 	EXP 	point_prac: autoDraw = False
+104.0484 	EXP 	image_practice: autoDraw = True
+104.7675 	DATA 	Keypress: num_1
+104.7716 	EXP 	New trial (rep=0, index=31): OrderedDict([('no', 6), ('pic', u'pic/6.png'), ('cla', u'practice'), ('ans', ['num_6'])])
+104.8617 	EXP 	image_practice: autoDraw = False
+104.8617 	EXP 	point_prac: autoDraw = False
+104.8617 	EXP 	image_practice: image = u'pic/6.png'
+104.8617 	EXP 	point_prac: autoDraw = True
+105.7834 	EXP 	point_prac: autoDraw = False
+105.8002 	EXP 	image_practice: autoDraw = True
+106.3193 	DATA 	Keypress: num_6
+106.3234 	EXP 	New trial (rep=0, index=32): OrderedDict([('no', 41), ('pic', u'pic/5.png'), ('cla', u'practice'), ('ans', ['num_5'])])
+106.4317 	EXP 	image_practice: autoDraw = False
+106.4317 	EXP 	point_prac: autoDraw = False
+106.4317 	EXP 	image_practice: image = u'pic/5.png'
+106.4317 	EXP 	point_prac: autoDraw = True
+107.3350 	EXP 	point_prac: autoDraw = False
+107.3519 	EXP 	image_practice: autoDraw = True
+107.7879 	DATA 	Keypress: num_5
+107.7921 	EXP 	New trial (rep=0, index=33): OrderedDict([('no', 21), ('pic', u'pic/3.png'), ('cla', u'practice'), ('ans', ['num_3'])])
+107.8747 	EXP 	image_practice: autoDraw = False
+107.8747 	EXP 	point_prac: autoDraw = False
+107.8747 	EXP 	image_practice: image = u'pic/3.png'
+107.8747 	EXP 	point_prac: autoDraw = True
+108.8026 	EXP 	point_prac: autoDraw = False
+108.8195 	EXP 	image_practice: autoDraw = True
+109.4223 	DATA 	Keypress: num_3
+109.4262 	EXP 	New trial (rep=0, index=34): OrderedDict([('no', 20), ('pic', u'pic/2.png'), ('cla', u'practice'), ('ans', ['num_2'])])
+109.5081 	EXP 	image_practice: autoDraw = False
+109.5081 	EXP 	point_prac: autoDraw = False
+109.5081 	EXP 	image_practice: image = u'pic/2.png'
+109.5081 	EXP 	point_prac: autoDraw = True
+110.4381 	EXP 	point_prac: autoDraw = False
+110.4548 	EXP 	image_practice: autoDraw = True
+111.1398 	DATA 	Keypress: num_2
+111.1431 	EXP 	New trial (rep=0, index=35): OrderedDict([('no', 34), ('pic', u'pic/7.png'), ('cla', u'practice'), ('ans', ['num_7'])])
+111.2411 	EXP 	image_practice: autoDraw = False
+111.2411 	EXP 	point_prac: autoDraw = False
+111.2411 	EXP 	image_practice: image = u'pic/7.png'
+111.2411 	EXP 	point_prac: autoDraw = True
+112.1560 	EXP 	point_prac: autoDraw = False
+112.1728 	EXP 	image_practice: autoDraw = True
+112.7425 	DATA 	Keypress: num_7
+112.7464 	EXP 	New trial (rep=0, index=36): OrderedDict([('no', 4), ('pic', u'pic/4.png'), ('cla', u'practice'), ('ans', ['num_4'])])
+112.8307 	EXP 	image_practice: autoDraw = False
+112.8307 	EXP 	point_prac: autoDraw = False
+112.8307 	EXP 	image_practice: image = u'pic/4.png'
+112.8307 	EXP 	point_prac: autoDraw = True
+113.7579 	EXP 	point_prac: autoDraw = False
+113.7744 	EXP 	image_practice: autoDraw = True
+114.1932 	DATA 	Keypress: num_4
+114.1965 	EXP 	New trial (rep=0, index=37): OrderedDict([('no', 38), ('pic', u'pic/2.png'), ('cla', u'practice'), ('ans', ['num_2'])])
+114.2797 	EXP 	image_practice: autoDraw = False
+114.2797 	EXP 	point_prac: autoDraw = False
+114.2797 	EXP 	image_practice: image = u'pic/2.png'
+114.2797 	EXP 	point_prac: autoDraw = True
+115.2092 	EXP 	point_prac: autoDraw = False
+115.2257 	EXP 	image_practice: autoDraw = True
+115.8946 	DATA 	Keypress: num_2
+115.8979 	EXP 	New trial (rep=0, index=38): OrderedDict([('no', 24), ('pic', u'pic/6.png'), ('cla', u'practice'), ('ans', ['num_6'])])
+115.9890 	EXP 	image_practice: autoDraw = False
+115.9890 	EXP 	point_prac: autoDraw = False
+115.9890 	EXP 	image_practice: image = u'pic/6.png'
+115.9890 	EXP 	point_prac: autoDraw = True
+116.9109 	EXP 	point_prac: autoDraw = False
+116.9276 	EXP 	image_practice: autoDraw = True
+117.3131 	DATA 	Keypress: num_6
+117.3170 	EXP 	New trial (rep=0, index=39): OrderedDict([('no', 32), ('pic', u'pic/5.png'), ('cla', u'practice'), ('ans', ['num_5'])])
+117.4043 	EXP 	image_practice: autoDraw = False
+117.4043 	EXP 	point_prac: autoDraw = False
+117.4043 	EXP 	image_practice: image = u'pic/5.png'
+117.4043 	EXP 	point_prac: autoDraw = True
+118.3286 	EXP 	point_prac: autoDraw = False
+118.3461 	EXP 	image_practice: autoDraw = True
+118.7647 	DATA 	Keypress: num_5
+118.7684 	EXP 	New trial (rep=0, index=40): OrderedDict([('no', 35), ('pic', u'pic/8.png'), ('cla', u'practice'), ('ans', ['num_8'])])
+118.8529 	EXP 	image_practice: autoDraw = False
+118.8529 	EXP 	point_prac: autoDraw = False
+118.8529 	EXP 	image_practice: image = u'pic/8.png'
+118.8529 	EXP 	point_prac: autoDraw = True
+119.7806 	EXP 	point_prac: autoDraw = False
+119.7970 	EXP 	image_practice: autoDraw = True
+120.3501 	DATA 	Keypress: num_8
+120.3542 	EXP 	New trial (rep=0, index=41): OrderedDict([('no', 15), ('pic', u'pic/6.png'), ('cla', u'practice'), ('ans', ['num_6'])])
+120.4384 	EXP 	image_practice: autoDraw = False
+120.4384 	EXP 	point_prac: autoDraw = False
+120.4384 	EXP 	image_practice: image = u'pic/6.png'
+120.4384 	EXP 	point_prac: autoDraw = True
+121.3659 	EXP 	point_prac: autoDraw = False
+121.3830 	EXP 	image_practice: autoDraw = True
+121.8177 	DATA 	Keypress: num_6
+121.8216 	EXP 	New trial (rep=0, index=42): OrderedDict([('no', 1), ('pic', u'pic/1.png'), ('cla', u'practice'), ('ans', ['num_1'])])
+121.9024 	EXP 	image_practice: autoDraw = False
+121.9024 	EXP 	point_prac: autoDraw = False
+121.9024 	EXP 	image_practice: image = u'pic/1.png'
+121.9024 	EXP 	point_prac: autoDraw = True
+122.8335 	EXP 	point_prac: autoDraw = False
+122.8502 	EXP 	image_practice: autoDraw = True
+123.6030 	DATA 	Keypress: num_1
+123.6090 	EXP 	New trial (rep=0, index=43): OrderedDict([('no', 47), ('pic', u'pic/2.png'), ('cla', u'practice'), ('ans', ['num_2'])])
+123.6888 	EXP 	image_practice: autoDraw = False
+123.6888 	EXP 	point_prac: autoDraw = False
+123.6888 	EXP 	image_practice: image = u'pic/2.png'
+123.6888 	EXP 	point_prac: autoDraw = True
+124.6187 	EXP 	point_prac: autoDraw = False
+124.6352 	EXP 	image_practice: autoDraw = True
+125.1373 	DATA 	Keypress: num_2
+125.1406 	EXP 	New trial (rep=0, index=44): OrderedDict([('no', 44), ('pic', u'pic/8.png'), ('cla', u'practice'), ('ans', ['num_8'])])
+125.2351 	EXP 	image_practice: autoDraw = False
+125.2351 	EXP 	point_prac: autoDraw = False
+125.2351 	EXP 	image_practice: image = u'pic/8.png'
+125.2351 	EXP 	point_prac: autoDraw = True
+126.1539 	EXP 	point_prac: autoDraw = False
+126.1706 	EXP 	image_practice: autoDraw = True
+126.7567 	DATA 	Keypress: num_8
+126.7623 	EXP 	New trial (rep=0, index=45): OrderedDict([('no', 16), ('pic', u'pic/7.png'), ('cla', u'practice'), ('ans', ['num_7'])])
+126.8339 	EXP 	image_practice: autoDraw = False
+126.8339 	EXP 	point_prac: autoDraw = False
+126.8339 	EXP 	image_practice: image = u'pic/7.png'
+126.8339 	EXP 	point_prac: autoDraw = True
+127.7713 	EXP 	point_prac: autoDraw = False
+127.7885 	EXP 	image_practice: autoDraw = True
+128.7409 	DATA 	Keypress: num_7
+128.7446 	EXP 	New trial (rep=0, index=46): OrderedDict([('no', 19), ('pic', u'pic/1.png'), ('cla', u'practice'), ('ans', ['num_1'])])
+128.8479 	EXP 	image_practice: autoDraw = False
+128.8479 	EXP 	point_prac: autoDraw = False
+128.8479 	EXP 	image_practice: image = u'pic/1.png'
+128.8479 	EXP 	point_prac: autoDraw = True
+129.7569 	EXP 	point_prac: autoDraw = False
+129.7737 	EXP 	image_practice: autoDraw = True
+130.3929 	DATA 	Keypress: num_1
+130.4386 	EXP 	image_practice: autoDraw = False
+130.4386 	EXP 	point_prac: autoDraw = False
+130.4386 	EXP 	text_base: autoDraw = True
+135.4141 	DATA 	Keypress: space
+135.4290 	EXP 	Imported pic\huan.csv as conditions, 2 conditions, 4 params
+135.4304 	EXP 	Created sequence: random, trialTypes=2, nReps=1, seed=None
+135.4320 	EXP 	New trial (rep=0, index=0): OrderedDict([('no', 2), ('pic', u'pic/9.png'), ('cla', u'huan'), ('ans', ['num_9'])])
+135.5215 	EXP 	text_base: autoDraw = False
+135.5215 	EXP 	image_huan: image = u'pic/9.png'
+135.5215 	EXP 	huan_point: autoDraw = True
+136.4475 	EXP 	huan_point: autoDraw = False
+136.4769 	EXP 	image_huan: autoDraw = True
+137.4669 	DATA 	Keypress: num_9
+137.4710 	EXP 	New trial (rep=0, index=1): OrderedDict([('no', 1), ('pic', u'pic/2.png'), ('cla', u'huan'), ('ans', ['num_2'])])
+137.5528 	EXP 	huan_point: autoDraw = False
+137.5528 	EXP 	image_huan: autoDraw = False
+137.5528 	EXP 	image_huan: image = u'pic/2.png'
+137.5528 	EXP 	huan_point: autoDraw = True
+138.4825 	EXP 	huan_point: autoDraw = False
+138.4992 	EXP 	image_huan: autoDraw = True
+139.1845 	DATA 	Keypress: num_2
+139.2080 	EXP 	Imported pic\baseline_c.csv as conditions, 27 conditions, 4 params
+139.2098 	EXP 	Created sequence: random, trialTypes=27, nReps=1, seed=None
+139.2117 	EXP 	New trial (rep=0, index=0): OrderedDict([('no', 18), ('pic', u'pic/9.png'), ('cla', u'baseline'), ('ans', ['num_9'])])
+139.3000 	EXP 	huan_point: autoDraw = False
+139.3000 	EXP 	image_huan: autoDraw = False
+139.3000 	EXP 	image_base: image = u'pic/9.png'
+139.3000 	EXP 	point_base: autoDraw = True
+140.2176 	EXP 	point_base: autoDraw = False
+140.2322 	EXP 	image_base: autoDraw = True
+140.8362 	DATA 	Keypress: num_9
+140.8398 	EXP 	New trial (rep=0, index=1): OrderedDict([('no', 14), ('pic', u'pic/5.png'), ('cla', u'baseline'), ('ans', ['num_5'])])
+140.9303 	EXP 	point_base: autoDraw = False
+140.9303 	EXP 	image_base: autoDraw = False
+140.9303 	EXP 	image_base: image = u'pic/5.png'
+140.9303 	EXP 	point_base: autoDraw = True
+141.8527 	EXP 	point_base: autoDraw = False
+141.8695 	EXP 	image_base: autoDraw = True
+142.3043 	DATA 	Keypress: num_5
+142.3074 	EXP 	New trial (rep=0, index=2): OrderedDict([('no', 20), ('pic', u'pic/2.png'), ('cla', u'baseline'), ('ans', ['num_2'])])
+142.4057 	EXP 	point_base: autoDraw = False
+142.4057 	EXP 	image_base: autoDraw = False
+142.4057 	EXP 	image_base: image = u'pic/2.png'
+142.4057 	EXP 	point_base: autoDraw = True
+143.3204 	EXP 	point_base: autoDraw = False
+143.3373 	EXP 	image_base: autoDraw = True
+143.8897 	DATA 	Keypress: num_2
+143.8933 	EXP 	New trial (rep=0, index=3): OrderedDict([('no', 26), ('pic', u'pic/8.png'), ('cla', u'baseline'), ('ans', ['num_8'])])
+143.9845 	EXP 	point_base: autoDraw = False
+143.9845 	EXP 	image_base: autoDraw = False
+143.9845 	EXP 	image_base: image = u'pic/8.png'
+143.9845 	EXP 	point_base: autoDraw = True
+144.9055 	EXP 	point_base: autoDraw = False
+144.9220 	EXP 	image_base: autoDraw = True
+145.5409 	DATA 	Keypress: num_8
+145.5439 	EXP 	New trial (rep=0, index=4): OrderedDict([('no', 6), ('pic', u'pic/6.png'), ('cla', u'baseline'), ('ans', ['num_6'])])
+145.6381 	EXP 	point_base: autoDraw = False
+145.6381 	EXP 	image_base: autoDraw = False
+145.6381 	EXP 	image_base: image = u'pic/6.png'
+145.6381 	EXP 	point_base: autoDraw = True
+146.5571 	EXP 	point_base: autoDraw = False
+146.5739 	EXP 	image_base: autoDraw = True
+146.9936 	DATA 	Keypress: num_6
+147.0112 	EXP 	New trial (rep=0, index=5): OrderedDict([('no', 11), ('pic', u'pic/2.png'), ('cla', u'baseline'), ('ans', ['num_2'])])
+147.0991 	EXP 	point_base: autoDraw = False
+147.0991 	EXP 	image_base: autoDraw = False
+147.0991 	EXP 	image_base: image = u'pic/2.png'
+147.0991 	EXP 	point_base: autoDraw = True
+148.0258 	EXP 	point_base: autoDraw = False
+148.0420 	EXP 	image_base: autoDraw = True
+148.6615 	DATA 	Keypress: num_2
+148.6650 	EXP 	New trial (rep=0, index=6): OrderedDict([('no', 1), ('pic', u'pic/1.png'), ('cla', u'baseline'), ('ans', ['num_1'])])
+148.7554 	EXP 	point_base: autoDraw = False
+148.7554 	EXP 	image_base: autoDraw = False
+148.7554 	EXP 	image_base: image = u'pic/1.png'
+148.7554 	EXP 	point_base: autoDraw = True
+149.6766 	EXP 	point_base: autoDraw = False
+149.6936 	EXP 	image_base: autoDraw = True
+150.4963 	DATA 	Keypress: num_1
+150.4998 	EXP 	New trial (rep=0, index=7): OrderedDict([('no', 2), ('pic', u'pic/2.png'), ('cla', u'baseline'), ('ans', ['num_2'])])
+150.5989 	EXP 	point_base: autoDraw = False
+150.5989 	EXP 	image_base: autoDraw = False
+150.5989 	EXP 	image_base: image = u'pic/2.png'
+150.5989 	EXP 	point_base: autoDraw = True
+151.5117 	EXP 	point_base: autoDraw = False
+151.5284 	EXP 	image_base: autoDraw = True
+152.1306 	DATA 	Keypress: num_2
+152.1336 	EXP 	New trial (rep=0, index=8): OrderedDict([('no', 7), ('pic', u'pic/7.png'), ('cla', u'baseline'), ('ans', ['num_7'])])
+152.2276 	EXP 	point_base: autoDraw = False
+152.2276 	EXP 	image_base: autoDraw = False
+152.2276 	EXP 	image_base: image = u'pic/7.png'
+152.2276 	EXP 	point_base: autoDraw = True
+153.1471 	EXP 	point_base: autoDraw = False
+153.1641 	EXP 	image_base: autoDraw = True
+153.8166 	DATA 	Keypress: num_7
+153.8202 	EXP 	New trial (rep=0, index=9): OrderedDict([('no', 23), ('pic', u'pic/5.png'), ('cla', u'baseline'), ('ans', ['num_5'])])
+153.9307 	EXP 	point_base: autoDraw = False
+153.9307 	EXP 	image_base: autoDraw = False
+153.9307 	EXP 	image_base: image = u'pic/5.png'
+153.9307 	EXP 	point_base: autoDraw = True
+154.8329 	EXP 	point_base: autoDraw = False
+154.8492 	EXP 	image_base: autoDraw = True
+155.1844 	DATA 	Keypress: num_5
+155.1875 	EXP 	New trial (rep=0, index=10): OrderedDict([('no', 15), ('pic', u'pic/6.png'), ('cla', u'baseline'), ('ans', ['num_6'])])
+155.2737 	EXP 	point_base: autoDraw = False
+155.2737 	EXP 	image_base: autoDraw = False
+155.2737 	EXP 	image_base: image = u'pic/6.png'
+155.2737 	EXP 	point_base: autoDraw = True
+156.2003 	EXP 	point_base: autoDraw = False
+156.2170 	EXP 	image_base: autoDraw = True
+156.6691 	DATA 	Keypress: num_6
+156.6727 	EXP 	New trial (rep=0, index=11): OrderedDict([('no', 21), ('pic', u'pic/3.png'), ('cla', u'baseline'), ('ans', ['num_3'])])
+156.7621 	EXP 	point_base: autoDraw = False
+156.7621 	EXP 	image_base: autoDraw = False
+156.7621 	EXP 	image_base: image = u'pic/3.png'
+156.7621 	EXP 	point_base: autoDraw = True
+157.6848 	EXP 	point_base: autoDraw = False
+157.7020 	EXP 	image_base: autoDraw = True
+158.3375 	DATA 	Keypress: num_3
+158.3410 	EXP 	New trial (rep=0, index=12): OrderedDict([('no', 17), ('pic', u'pic/8.png'), ('cla', u'baseline'), ('ans', ['num_8'])])
+158.4366 	EXP 	point_base: autoDraw = False
+158.4366 	EXP 	image_base: autoDraw = False
+158.4366 	EXP 	image_base: image = u'pic/8.png'
+158.4366 	EXP 	point_base: autoDraw = True
+159.3537 	EXP 	point_base: autoDraw = False
+159.3704 	EXP 	image_base: autoDraw = True
+159.9391 	DATA 	Keypress: num_8
+159.9427 	EXP 	New trial (rep=0, index=13): OrderedDict([('no', 3), ('pic', u'pic/3.png'), ('cla', u'baseline'), ('ans', ['num_3'])])
+160.0358 	EXP 	point_base: autoDraw = False
+160.0358 	EXP 	image_base: autoDraw = False
+160.0358 	EXP 	image_base: image = u'pic/3.png'
+160.0358 	EXP 	point_base: autoDraw = True
+160.9553 	EXP 	point_base: autoDraw = False
+160.9723 	EXP 	image_base: autoDraw = True
+161.6078 	DATA 	Keypress: num_3
+161.6116 	EXP 	New trial (rep=0, index=14): OrderedDict([('no', 16), ('pic', u'pic/7.png'), ('cla', u'baseline'), ('ans', ['num_7'])])
+161.6986 	EXP 	point_base: autoDraw = False
+161.6986 	EXP 	image_base: autoDraw = False
+161.6986 	EXP 	image_base: image = u'pic/7.png'
+161.6986 	EXP 	point_base: autoDraw = True
+162.6233 	EXP 	point_base: autoDraw = False
+162.6400 	EXP 	image_base: autoDraw = True
+163.1591 	DATA 	Keypress: num_7
+163.1625 	EXP 	New trial (rep=0, index=15): OrderedDict([('no', 4), ('pic', u'pic/4.png'), ('cla', u'baseline'), ('ans', ['num_4'])])
+163.2605 	EXP 	point_base: autoDraw = False
+163.2605 	EXP 	image_base: autoDraw = False
+163.2605 	EXP 	image_base: image = u'pic/4.png'
+163.2605 	EXP 	point_base: autoDraw = True
+164.1744 	EXP 	point_base: autoDraw = False
+164.1911 	EXP 	image_base: autoDraw = True
+164.6271 	DATA 	Keypress: num_4
+164.6306 	EXP 	New trial (rep=0, index=16): OrderedDict([('no', 5), ('pic', u'pic/5.png'), ('cla', u'baseline'), ('ans', ['num_5'])])
+164.7289 	EXP 	point_base: autoDraw = False
+164.7289 	EXP 	image_base: autoDraw = False
+164.7289 	EXP 	image_base: image = u'pic/5.png'
+164.7289 	EXP 	point_base: autoDraw = True
+165.6433 	EXP 	point_base: autoDraw = False
+165.6600 	EXP 	image_base: autoDraw = True
+166.0780 	DATA 	Keypress: num_5
+166.0811 	EXP 	New trial (rep=0, index=17): OrderedDict([('no', 25), ('pic', u'pic/7.png'), ('cla', u'baseline'), ('ans', ['num_7'])])
+166.1828 	EXP 	point_base: autoDraw = False
+166.1828 	EXP 	image_base: autoDraw = False
+166.1828 	EXP 	image_base: image = u'pic/7.png'
+166.1828 	EXP 	point_base: autoDraw = True
+167.0945 	EXP 	point_base: autoDraw = False
+167.1111 	EXP 	image_base: autoDraw = True
+167.7466 	DATA 	Keypress: num_7
+167.7496 	EXP 	New trial (rep=0, index=18): OrderedDict([('no', 12), ('pic', u'pic/3.png'), ('cla', u'baseline'), ('ans', ['num_3'])])
+167.8480 	EXP 	point_base: autoDraw = False
+167.8480 	EXP 	image_base: autoDraw = False
+167.8480 	EXP 	image_base: image = u'pic/3.png'
+167.8480 	EXP 	point_base: autoDraw = True
+168.7631 	EXP 	point_base: autoDraw = False
+168.7794 	EXP 	image_base: autoDraw = True
+169.4174 	DATA 	Keypress: num_3
+169.4348 	EXP 	New trial (rep=0, index=19): OrderedDict([('no', 9), ('pic', u'pic/9.png'), ('cla', u'baseline'), ('ans', ['num_9'])])
+169.5323 	EXP 	point_base: autoDraw = False
+169.5323 	EXP 	image_base: autoDraw = False
+169.5323 	EXP 	image_base: image = u'pic/9.png'
+169.5323 	EXP 	point_base: autoDraw = True
+170.4481 	EXP 	point_base: autoDraw = False
+170.4648 	EXP 	image_base: autoDraw = True
+171.1170 	DATA 	Keypress: num_9
+171.1204 	EXP 	New trial (rep=0, index=20): OrderedDict([('no', 10), ('pic', u'pic/1.png'), ('cla', u'baseline'), ('ans', ['num_1'])])
+171.2185 	EXP 	point_base: autoDraw = False
+171.2185 	EXP 	image_base: autoDraw = False
+171.2185 	EXP 	image_base: image = u'pic/1.png'
+171.2185 	EXP 	point_base: autoDraw = True
+172.1337 	EXP 	point_base: autoDraw = False
+172.1493 	EXP 	image_base: autoDraw = True
+172.7676 	DATA 	Keypress: num_1
+172.7710 	EXP 	New trial (rep=0, index=21): OrderedDict([('no', 22), ('pic', u'pic/4.png'), ('cla', u'baseline'), ('ans', ['num_4'])])
+172.8604 	EXP 	point_base: autoDraw = False
+172.8604 	EXP 	image_base: autoDraw = False
+172.8604 	EXP 	image_base: image = u'pic/4.png'
+172.8604 	EXP 	point_base: autoDraw = True
+173.7844 	EXP 	point_base: autoDraw = False
+173.8006 	EXP 	image_base: autoDraw = True
+174.2863 	DATA 	Keypress: num_4
+174.2893 	EXP 	New trial (rep=0, index=22): OrderedDict([('no', 13), ('pic', u'pic/4.png'), ('cla', u'baseline'), ('ans', ['num_4'])])
+174.3887 	EXP 	point_base: autoDraw = False
+174.3887 	EXP 	image_base: autoDraw = False
+174.3887 	EXP 	image_base: image = u'pic/4.png'
+174.3887 	EXP 	point_base: autoDraw = True
+175.3026 	EXP 	point_base: autoDraw = False
+175.3196 	EXP 	image_base: autoDraw = True
+175.7217 	DATA 	Keypress: num_4
+175.7250 	EXP 	New trial (rep=0, index=23): OrderedDict([('no', 27), ('pic', u'pic/9.png'), ('cla', u'baseline'), ('ans', ['num_9'])])
+175.8070 	EXP 	point_base: autoDraw = False
+175.8070 	EXP 	image_base: autoDraw = False
+175.8070 	EXP 	image_base: image = u'pic/9.png'
+175.8070 	EXP 	point_base: autoDraw = True
+176.7377 	EXP 	point_base: autoDraw = False
+176.7545 	EXP 	image_base: autoDraw = True
+177.4412 	DATA 	Keypress: num_9
+177.4585 	EXP 	New trial (rep=0, index=24): OrderedDict([('no', 19), ('pic', u'pic/1.png'), ('cla', u'baseline'), ('ans', ['num_1'])])
+177.5417 	EXP 	point_base: autoDraw = False
+177.5417 	EXP 	image_base: autoDraw = False
+177.5417 	EXP 	image_base: image = u'pic/1.png'
+177.5417 	EXP 	point_base: autoDraw = True
+178.4726 	EXP 	point_base: autoDraw = False
+178.4726 	EXP 	image_base: autoDraw = True
+179.1417 	DATA 	Keypress: num_1
+179.1451 	EXP 	New trial (rep=0, index=25): OrderedDict([('no', 24), ('pic', u'pic/6.png'), ('cla', u'baseline'), ('ans', ['num_6'])])
+179.2476 	EXP 	point_base: autoDraw = False
+179.2476 	EXP 	image_base: autoDraw = False
+179.2476 	EXP 	image_base: image = u'pic/6.png'
+179.2476 	EXP 	point_base: autoDraw = True
+180.1575 	EXP 	point_base: autoDraw = False
+180.1742 	EXP 	image_base: autoDraw = True
+180.5771 	DATA 	Keypress: num_6
+180.5948 	EXP 	New trial (rep=0, index=26): OrderedDict([('no', 8), ('pic', u'pic/8.png'), ('cla', u'baseline'), ('ans', ['num_8'])])
+180.6894 	EXP 	point_base: autoDraw = False
+180.6894 	EXP 	image_base: autoDraw = False
+180.6894 	EXP 	image_base: image = u'pic/8.png'
+180.6894 	EXP 	point_base: autoDraw = True
+181.6090 	EXP 	point_base: autoDraw = False
+181.6256 	EXP 	image_base: autoDraw = True
+182.2946 	DATA 	Keypress: num_8
+182.4804 	EXP 	Imported pic\formal_click.csv as conditions, 105 conditions, 4 params
+182.4825 	EXP 	Created sequence: sequential, trialTypes=105, nReps=1, seed=None
+182.4838 	EXP 	New trial (rep=0, index=0): OrderedDict([('pic', u'pic/1.png'), ('ans', ['num_1']), ('cla', u'aa'), ('no', 1)])
+182.5495 	EXP 	point_base: autoDraw = False
+182.5495 	EXP 	image_base: autoDraw = False
+182.5495 	EXP 	image_for: image = u'pic/1.png'
+182.5495 	EXP 	point_for: autoDraw = True
+183.4943 	EXP 	point_for: autoDraw = False
+183.5124 	EXP 	image_for: autoDraw = True
+184.1462 	DATA 	Keypress: num_1
+184.1502 	EXP 	New trial (rep=0, index=1): OrderedDict([('pic', u'pic/1.png'), ('ans', ['num_1']), ('cla', u'aa'), ('no', 2)])
+184.2316 	EXP 	point_for: autoDraw = False
+184.2316 	EXP 	image_for: autoDraw = False
+184.2316 	EXP 	image_for: image = u'pic/1.png'
+184.2316 	EXP 	point_for: autoDraw = True
+185.1629 	EXP 	point_for: autoDraw = False
+185.1791 	EXP 	image_for: autoDraw = True
+185.7647 	DATA 	Keypress: num_1
+185.7687 	EXP 	New trial (rep=0, index=2): OrderedDict([('pic', u'pic/7.png'), ('ans', ['num_7']), ('cla', u'aa'), ('no', 3)])
+185.8553 	EXP 	point_for: autoDraw = False
+185.8553 	EXP 	image_for: autoDraw = False
+185.8553 	EXP 	image_for: image = u'pic/7.png'
+185.8553 	EXP 	point_for: autoDraw = True
+186.7843 	EXP 	point_for: autoDraw = False
+186.7975 	EXP 	image_for: autoDraw = True
+187.4169 	DATA 	Keypress: num_7
+187.4352 	EXP 	New trial (rep=0, index=3): OrderedDict([('pic', u'pic/7.png'), ('ans', ['num_7']), ('cla', u'aa'), ('no', 4)])
+187.5358 	EXP 	point_for: autoDraw = False
+187.5358 	EXP 	image_for: autoDraw = False
+187.5358 	EXP 	image_for: image = u'pic/7.png'
+187.5358 	EXP 	point_for: autoDraw = True
+188.4514 	EXP 	point_for: autoDraw = False
+188.4514 	EXP 	image_for: autoDraw = True
+188.9847 	DATA 	Keypress: num_7
+188.9883 	EXP 	New trial (rep=0, index=4): OrderedDict([('pic', u'pic/2.png'), ('ans', ['num_2']), ('cla', u'aa'), ('no', 5)])
+189.0683 	EXP 	point_for: autoDraw = False
+189.0683 	EXP 	image_for: autoDraw = False
+189.0683 	EXP 	image_for: image = u'pic/2.png'
+189.0683 	EXP 	point_for: autoDraw = True
+190.0006 	EXP 	point_for: autoDraw = False
+190.0172 	EXP 	image_for: autoDraw = True
+190.6523 	DATA 	Keypress: num_2
+190.6555 	EXP 	New trial (rep=0, index=5): OrderedDict([('pic', u'pic/2.png'), ('ans', ['num_2']), ('cla', u'aa'), ('no', 6)])
+190.7474 	EXP 	point_for: autoDraw = False
+190.7474 	EXP 	image_for: autoDraw = False
+190.7474 	EXP 	image_for: image = u'pic/2.png'
+190.7474 	EXP 	point_for: autoDraw = True
+191.6687 	EXP 	point_for: autoDraw = False
+191.6852 	EXP 	image_for: autoDraw = True
+192.2553 	DATA 	Keypress: num_2
+192.2588 	EXP 	New trial (rep=0, index=6): OrderedDict([('pic', u'pic/5.png'), ('ans', ['num_5']), ('cla', u'aa'), ('no', 7)])
+192.3631 	EXP 	point_for: autoDraw = False
+192.3631 	EXP 	image_for: autoDraw = False
+192.3631 	EXP 	image_for: image = u'pic/5.png'
+192.3631 	EXP 	point_for: autoDraw = True
+193.2706 	EXP 	point_for: autoDraw = False
+193.2873 	EXP 	image_for: autoDraw = True
+193.8720 	DATA 	Keypress: num_5
+193.8750 	EXP 	New trial (rep=0, index=7): OrderedDict([('pic', u'pic/5.png'), ('ans', ['num_5']), ('cla', u'aa'), ('no', 8)])
+193.9736 	EXP 	point_for: autoDraw = False
+193.9736 	EXP 	image_for: autoDraw = False
+193.9736 	EXP 	image_for: image = u'pic/5.png'
+193.9736 	EXP 	point_for: autoDraw = True
+194.8892 	EXP 	point_for: autoDraw = False
+194.9055 	EXP 	image_for: autoDraw = True
+195.3076 	DATA 	Keypress: num_5
+195.3128 	EXP 	New trial (rep=0, index=8): OrderedDict([('pic', u'pic/4.png'), ('ans', ['num_4']), ('cla', u'aa'), ('no', 9)])
+195.4072 	EXP 	point_for: autoDraw = False
+195.4072 	EXP 	image_for: autoDraw = False
+195.4072 	EXP 	image_for: image = u'pic/4.png'
+195.4072 	EXP 	point_for: autoDraw = True
+196.3236 	EXP 	point_for: autoDraw = False
+196.3403 	EXP 	image_for: autoDraw = True
+196.7754 	DATA 	Keypress: num_4
+196.7784 	EXP 	New trial (rep=0, index=9): OrderedDict([('pic', u'pic/4.png'), ('ans', ['num_4']), ('cla', u'aa'), ('no', 10)])
+196.8729 	EXP 	point_for: autoDraw = False
+196.8729 	EXP 	image_for: autoDraw = False
+196.8729 	EXP 	image_for: image = u'pic/4.png'
+196.8729 	EXP 	point_for: autoDraw = True
+197.7918 	EXP 	point_for: autoDraw = False
+197.8084 	EXP 	image_for: autoDraw = True
+198.2105 	DATA 	Keypress: num_4
+198.2136 	EXP 	New trial (rep=0, index=10): OrderedDict([('pic', u'pic/6.png'), ('ans', ['num_6']), ('cla', u'huan'), ('no', -1)])
+198.3055 	EXP 	point_for: autoDraw = False
+198.3055 	EXP 	image_for: autoDraw = False
+198.3055 	EXP 	image_for: image = u'pic/6.png'
+198.3055 	EXP 	point_for: autoDraw = True
+199.2265 	EXP 	point_for: autoDraw = False
+199.2430 	EXP 	image_for: autoDraw = True
+199.6615 	DATA 	Keypress: num_6
+199.6646 	EXP 	New trial (rep=0, index=11): OrderedDict([('pic', u'pic/4.png'), ('ans', ['num_4']), ('cla', u'huan'), ('no', -1)])
+199.7457 	EXP 	point_for: autoDraw = False
+199.7457 	EXP 	image_for: autoDraw = False
+199.7457 	EXP 	image_for: image = u'pic/4.png'
+199.7457 	EXP 	point_for: autoDraw = True
+200.6775 	EXP 	point_for: autoDraw = False
+200.6943 	EXP 	image_for: autoDraw = True
+201.1298 	DATA 	Keypress: num_4
+201.1330 	EXP 	New trial (rep=0, index=12): OrderedDict([('pic', u'pic/9.png'), ('ans', ['num_9']), ('cla', u'aaa'), ('no', 11)])
+201.2273 	EXP 	point_for: autoDraw = False
+201.2273 	EXP 	image_for: autoDraw = False
+201.2273 	EXP 	image_for: image = u'pic/9.png'
+201.2273 	EXP 	point_for: autoDraw = True
+202.1460 	EXP 	point_for: autoDraw = False
+202.1627 	EXP 	image_for: autoDraw = True
+202.8332 	DATA 	Keypress: num_9
+202.8503 	EXP 	New trial (rep=0, index=13): OrderedDict([('pic', u'pic/9.png'), ('ans', ['num_9']), ('cla', u'aaa'), ('no', 12)])
+202.9432 	EXP 	point_for: autoDraw = False
+202.9432 	EXP 	image_for: autoDraw = False
+202.9432 	EXP 	image_for: image = u'pic/9.png'
+202.9432 	EXP 	point_for: autoDraw = True
+203.8649 	EXP 	point_for: autoDraw = False
+203.8807 	EXP 	image_for: autoDraw = True
+204.4341 	DATA 	Keypress: num_9
+204.4386 	EXP 	New trial (rep=0, index=14): OrderedDict([('pic', u'pic/9.png'), ('ans', ['num_9']), ('cla', u'aaa'), ('no', 13)])
+204.5219 	EXP 	point_for: autoDraw = False
+204.5219 	EXP 	image_for: autoDraw = False
+204.5219 	EXP 	image_for: image = u'pic/9.png'
+204.5219 	EXP 	point_for: autoDraw = True
+205.4494 	EXP 	point_for: autoDraw = False
+205.4658 	EXP 	image_for: autoDraw = True
+206.0852 	DATA 	Keypress: num_9
+206.0887 	EXP 	New trial (rep=0, index=15): OrderedDict([('pic', u'pic/8.png'), ('ans', ['num_8']), ('cla', u'aaa'), ('no', 14)])
+206.1827 	EXP 	point_for: autoDraw = False
+206.1827 	EXP 	image_for: autoDraw = False
+206.1827 	EXP 	image_for: image = u'pic/8.png'
+206.1827 	EXP 	point_for: autoDraw = True
+207.1012 	EXP 	point_for: autoDraw = False
+207.1174 	EXP 	image_for: autoDraw = True
+207.9054 	DATA 	Keypress: num_8
+207.9231 	EXP 	New trial (rep=0, index=16): OrderedDict([('pic', u'pic/8.png'), ('ans', ['num_8']), ('cla', u'aaa'), ('no', 15)])
+208.0108 	EXP 	point_for: autoDraw = False
+208.0108 	EXP 	image_for: autoDraw = False
+208.0108 	EXP 	image_for: image = u'pic/8.png'
+208.0108 	EXP 	point_for: autoDraw = True
+208.9362 	EXP 	point_for: autoDraw = False
+208.9524 	EXP 	image_for: autoDraw = True
+209.4738 	DATA 	Keypress: num_8
+209.4907 	EXP 	New trial (rep=0, index=17): OrderedDict([('pic', u'pic/8.png'), ('ans', ['num_8']), ('cla', u'aaa'), ('no', 16)])
+209.5810 	EXP 	point_for: autoDraw = False
+209.5810 	EXP 	image_for: autoDraw = False
+209.5810 	EXP 	image_for: image = u'pic/8.png'
+209.5810 	EXP 	point_for: autoDraw = True
+210.5044 	EXP 	point_for: autoDraw = False
+210.5211 	EXP 	image_for: autoDraw = True
+210.9562 	DATA 	Keypress: num_8
+210.9594 	EXP 	New trial (rep=0, index=18): OrderedDict([('pic', u'pic/4.png'), ('ans', ['num_4']), ('cla', u'aaa'), ('no', 17)])
+211.0474 	EXP 	point_for: autoDraw = False
+211.0474 	EXP 	image_for: autoDraw = False
+211.0474 	EXP 	image_for: image = u'pic/4.png'
+211.0474 	EXP 	point_for: autoDraw = True
+211.9726 	EXP 	point_for: autoDraw = False
+211.9891 	EXP 	image_for: autoDraw = True
+212.4407 	DATA 	Keypress: num_4
+212.4596 	EXP 	New trial (rep=0, index=19): OrderedDict([('pic', u'pic/4.png'), ('ans', ['num_4']), ('cla', u'aaa'), ('no', 18)])
+212.5594 	EXP 	point_for: autoDraw = False
+212.5594 	EXP 	image_for: autoDraw = False
+212.5594 	EXP 	image_for: image = u'pic/4.png'
+212.5594 	EXP 	point_for: autoDraw = True
+213.4742 	EXP 	point_for: autoDraw = False
+213.4902 	EXP 	image_for: autoDraw = True
+213.8933 	DATA 	Keypress: num_4
+213.8967 	EXP 	New trial (rep=0, index=20): OrderedDict([('pic', u'pic/4.png'), ('ans', ['num_4']), ('cla', u'aaa'), ('no', 19)])
+214.0014 	EXP 	point_for: autoDraw = False
+214.0014 	EXP 	image_for: autoDraw = False
+214.0014 	EXP 	image_for: image = u'pic/4.png'
+214.0014 	EXP 	point_for: autoDraw = True
+214.9088 	EXP 	point_for: autoDraw = False
+214.9256 	EXP 	image_for: autoDraw = True
+215.3435 	DATA 	Keypress: num_4
+215.3465 	EXP 	New trial (rep=0, index=21): OrderedDict([('pic', u'pic/3.png'), ('ans', ['num_3']), ('cla', u'aaa'), ('no', 20)])
+215.4397 	EXP 	point_for: autoDraw = False
+215.4397 	EXP 	image_for: autoDraw = False
+215.4397 	EXP 	image_for: image = u'pic/3.png'
+215.4397 	EXP 	point_for: autoDraw = True
+216.3607 	EXP 	point_for: autoDraw = False
+216.3770 	EXP 	image_for: autoDraw = True
+217.3467 	DATA 	Keypress: num_3
+217.3501 	EXP 	New trial (rep=0, index=22): OrderedDict([('pic', u'pic/3.png'), ('ans', ['num_3']), ('cla', u'aaa'), ('no', 21)])
+217.4458 	EXP 	point_for: autoDraw = False
+217.4458 	EXP 	image_for: autoDraw = False
+217.4458 	EXP 	image_for: image = u'pic/3.png'
+217.4458 	EXP 	point_for: autoDraw = True
+218.3625 	EXP 	point_for: autoDraw = False
+218.3791 	EXP 	image_for: autoDraw = True
+218.9814 	DATA 	Keypress: num_3
+218.9850 	EXP 	New trial (rep=0, index=23): OrderedDict([('pic', u'pic/3.png'), ('ans', ['num_3']), ('cla', u'aaa'), ('no', 22)])
+219.0891 	EXP 	point_for: autoDraw = False
+219.0891 	EXP 	image_for: autoDraw = False
+219.0891 	EXP 	image_for: image = u'pic/3.png'
+219.0891 	EXP 	point_for: autoDraw = True
+219.9976 	EXP 	point_for: autoDraw = False
+220.0142 	EXP 	image_for: autoDraw = True
+220.6665 	DATA 	Keypress: num_3
+220.6700 	EXP 	New trial (rep=0, index=24): OrderedDict([('pic', u'pic/2.png'), ('ans', ['num_2']), ('cla', u'huan'), ('no', -1)])
+220.7793 	EXP 	point_for: autoDraw = False
+220.7793 	EXP 	image_for: autoDraw = False
+220.7793 	EXP 	image_for: image = u'pic/2.png'
+220.7793 	EXP 	point_for: autoDraw = True
+221.6824 	EXP 	point_for: autoDraw = False
+221.6985 	EXP 	image_for: autoDraw = True
+222.4850 	DATA 	Keypress: num_2
+222.4885 	EXP 	New trial (rep=0, index=25): OrderedDict([('pic', u'pic/9.png'), ('ans', ['num_9']), ('cla', u'huan'), ('no', -1)])
+222.5934 	EXP 	point_for: autoDraw = False
+222.5934 	EXP 	image_for: autoDraw = False
+222.5934 	EXP 	image_for: image = u'pic/9.png'
+222.5934 	EXP 	point_for: autoDraw = True
+223.5010 	EXP 	point_for: autoDraw = False
+223.5185 	EXP 	image_for: autoDraw = True
+224.2868 	DATA 	Keypress: num_9
+224.2903 	EXP 	New trial (rep=0, index=26): OrderedDict([('pic', u'pic/7.png'), ('ans', ['num_7']), ('cla', u'abb'), ('no', 23)])
+224.3868 	EXP 	point_for: autoDraw = False
+224.3868 	EXP 	image_for: autoDraw = False
+224.3868 	EXP 	image_for: image = u'pic/7.png'
+224.3868 	EXP 	point_for: autoDraw = True
+225.3029 	EXP 	point_for: autoDraw = False
+225.3198 	EXP 	image_for: autoDraw = True
+225.9374 	DATA 	Keypress: num_7
+225.9404 	EXP 	New trial (rep=0, index=27): OrderedDict([('pic', u'pic/1.png'), ('ans', ['num_1']), ('cla', u'abb'), ('no', 24)])
+226.0359 	EXP 	point_for: autoDraw = False
+226.0359 	EXP 	image_for: autoDraw = False
+226.0359 	EXP 	image_for: image = u'pic/1.png'
+226.0359 	EXP 	point_for: autoDraw = True
+226.9540 	EXP 	point_for: autoDraw = False
+226.9706 	EXP 	image_for: autoDraw = True
+227.6412 	DATA 	Keypress: num_1
+227.6586 	EXP 	New trial (rep=0, index=28): OrderedDict([('pic', u'pic/1.png'), ('ans', ['num_1']), ('cla', u'abb'), ('no', 25)])
+227.7666 	EXP 	point_for: autoDraw = False
+227.7666 	EXP 	image_for: autoDraw = False
+227.7666 	EXP 	image_for: image = u'pic/1.png'
+227.7666 	EXP 	point_for: autoDraw = True
+228.6730 	EXP 	point_for: autoDraw = False
+228.6897 	EXP 	image_for: autoDraw = True
+229.3251 	DATA 	Keypress: num_1
+229.3286 	EXP 	New trial (rep=0, index=29): OrderedDict([('pic', u'pic/3.png'), ('ans', ['num_3']), ('cla', u'abb'), ('no', 26)])
+229.4283 	EXP 	point_for: autoDraw = False
+229.4283 	EXP 	image_for: autoDraw = False
+229.4283 	EXP 	image_for: image = u'pic/3.png'
+229.4283 	EXP 	point_for: autoDraw = True
+230.3406 	EXP 	point_for: autoDraw = False
+230.3583 	EXP 	image_for: autoDraw = True
+231.1607 	DATA 	Keypress: num_3
+231.1789 	EXP 	New trial (rep=0, index=30): OrderedDict([('pic', u'pic/6.png'), ('ans', ['num_6']), ('cla', u'abb'), ('no', 27)])
+231.2805 	EXP 	point_for: autoDraw = False
+231.2805 	EXP 	image_for: autoDraw = False
+231.2805 	EXP 	image_for: image = u'pic/6.png'
+231.2805 	EXP 	point_for: autoDraw = True
+232.1923 	EXP 	point_for: autoDraw = False
+232.2095 	EXP 	image_for: autoDraw = True
+232.6443 	DATA 	Keypress: num_6
+232.6473 	EXP 	New trial (rep=0, index=31): OrderedDict([('pic', u'pic/6.png'), ('ans', ['num_6']), ('cla', u'abb'), ('no', 28)])
+232.7370 	EXP 	point_for: autoDraw = False
+232.7370 	EXP 	image_for: autoDraw = False
+232.7370 	EXP 	image_for: image = u'pic/6.png'
+232.7370 	EXP 	point_for: autoDraw = True
+233.6609 	EXP 	point_for: autoDraw = False
+233.6775 	EXP 	image_for: autoDraw = True
+234.1300 	DATA 	Keypress: num_6
+234.1335 	EXP 	New trial (rep=0, index=32): OrderedDict([('pic', u'pic/4.png'), ('ans', ['num_4']), ('cla', u'abb'), ('no', 29)])
+234.2170 	EXP 	point_for: autoDraw = False
+234.2170 	EXP 	image_for: autoDraw = False
+234.2170 	EXP 	image_for: image = u'pic/4.png'
+234.2170 	EXP 	point_for: autoDraw = True
+235.1462 	EXP 	point_for: autoDraw = False
+235.1629 	EXP 	image_for: autoDraw = True
+235.6152 	DATA 	Keypress: num_4
+235.6187 	EXP 	New trial (rep=0, index=33): OrderedDict([('pic', u'pic/9.png'), ('ans', ['num_9']), ('cla', u'abb'), ('no', 30)])
+235.7287 	EXP 	point_for: autoDraw = False
+235.7287 	EXP 	image_for: autoDraw = False
+235.7287 	EXP 	image_for: image = u'pic/9.png'
+235.7287 	EXP 	point_for: autoDraw = True
+236.6304 	EXP 	point_for: autoDraw = False
+236.6476 	EXP 	image_for: autoDraw = True
+237.2496 	DATA 	Keypress: num_9
+237.2532 	EXP 	New trial (rep=0, index=34): OrderedDict([('pic', u'pic/9.png'), ('ans', ['num_9']), ('cla', u'abb'), ('no', 31)])
+237.3553 	EXP 	point_for: autoDraw = False
+237.3553 	EXP 	image_for: autoDraw = False
+237.3553 	EXP 	image_for: image = u'pic/9.png'
+237.3553 	EXP 	point_for: autoDraw = True
+238.2653 	EXP 	point_for: autoDraw = False
+238.2818 	EXP 	image_for: autoDraw = True
+238.8516 	DATA 	Keypress: num_9
+238.8551 	EXP 	New trial (rep=0, index=35): OrderedDict([('pic', u'pic/2.png'), ('ans', ['num_2']), ('cla', u'abb'), ('no', 32)])
+238.9479 	EXP 	point_for: autoDraw = False
+238.9479 	EXP 	image_for: autoDraw = False
+238.9479 	EXP 	image_for: image = u'pic/2.png'
+238.9479 	EXP 	point_for: autoDraw = True
+239.8671 	EXP 	point_for: autoDraw = False
+239.8833 	EXP 	image_for: autoDraw = True
+240.7693 	DATA 	Keypress: num_2
+240.7727 	EXP 	New trial (rep=0, index=36): OrderedDict([('pic', u'pic/4.png'), ('ans', ['num_4']), ('cla', u'abb'), ('no', 33)])
+240.8691 	EXP 	point_for: autoDraw = False
+240.8691 	EXP 	image_for: autoDraw = False
+240.8691 	EXP 	image_for: image = u'pic/4.png'
+240.8691 	EXP 	point_for: autoDraw = True
+241.7856 	EXP 	point_for: autoDraw = False
+241.8023 	EXP 	image_for: autoDraw = True
+242.3047 	DATA 	Keypress: num_4
+242.3082 	EXP 	New trial (rep=0, index=37): OrderedDict([('pic', u'pic/4.png'), ('ans', ['num_4']), ('cla', u'abb'), ('no', 34)])
+242.3997 	EXP 	point_for: autoDraw = False
+242.3997 	EXP 	image_for: autoDraw = False
+242.3997 	EXP 	image_for: image = u'pic/4.png'
+242.3997 	EXP 	point_for: autoDraw = True
+243.3211 	EXP 	point_for: autoDraw = False
+243.3376 	EXP 	image_for: autoDraw = True
+243.9058 	DATA 	Keypress: num_4
+243.9088 	EXP 	New trial (rep=0, index=38): OrderedDict([('pic', u'pic/8.png'), ('ans', ['num_8']), ('cla', u'abb'), ('no', 35)])
+244.0010 	EXP 	point_for: autoDraw = False
+244.0010 	EXP 	image_for: autoDraw = False
+244.0010 	EXP 	image_for: image = u'pic/8.png'
+244.0010 	EXP 	point_for: autoDraw = True
+244.9222 	EXP 	point_for: autoDraw = False
+244.9388 	EXP 	image_for: autoDraw = True
+245.5744 	DATA 	Keypress: num_8
+245.5775 	EXP 	New trial (rep=0, index=39): OrderedDict([('pic', u'pic/3.png'), ('ans', ['num_3']), ('cla', u'abb'), ('no', 36)])
+245.6715 	EXP 	point_for: autoDraw = False
+245.6715 	EXP 	image_for: autoDraw = False
+245.6715 	EXP 	image_for: image = u'pic/3.png'
+245.6715 	EXP 	point_for: autoDraw = True
+246.5900 	EXP 	point_for: autoDraw = False
+246.6071 	EXP 	image_for: autoDraw = True
+247.5934 	DATA 	Keypress: num_3
+247.5980 	EXP 	New trial (rep=0, index=40): OrderedDict([('pic', u'pic/3.png'), ('ans', ['num_3']), ('cla', u'abb'), ('no', 37)])
+247.6958 	EXP 	point_for: autoDraw = False
+247.6958 	EXP 	image_for: autoDraw = False
+247.6958 	EXP 	image_for: image = u'pic/3.png'
+247.6958 	EXP 	point_for: autoDraw = True
+248.6089 	EXP 	point_for: autoDraw = False
+248.6254 	EXP 	image_for: autoDraw = True
+249.2953 	DATA 	Keypress: num_3
+249.2988 	EXP 	New trial (rep=0, index=41): OrderedDict([('pic', u'pic/5.png'), ('ans', ['num_5']), ('cla', u'abb'), ('no', 38)])
+249.3922 	EXP 	point_for: autoDraw = False
+249.3922 	EXP 	image_for: autoDraw = False
+249.3922 	EXP 	image_for: image = u'pic/5.png'
+249.3922 	EXP 	point_for: autoDraw = True
+250.3113 	EXP 	point_for: autoDraw = False
+250.3280 	EXP 	image_for: autoDraw = True
+250.7793 	DATA 	Keypress: num_5
+250.7823 	EXP 	New trial (rep=0, index=42): OrderedDict([('pic', u'pic/3.png'), ('ans', ['num_3']), ('cla', u'abb'), ('no', 39)])
+250.8735 	EXP 	point_for: autoDraw = False
+250.8735 	EXP 	image_for: autoDraw = False
+250.8735 	EXP 	image_for: image = u'pic/3.png'
+250.8735 	EXP 	point_for: autoDraw = True
+251.7957 	EXP 	point_for: autoDraw = False
+251.8124 	EXP 	image_for: autoDraw = True
+252.4334 	DATA 	Keypress: num_3
+252.4509 	EXP 	New trial (rep=0, index=43): OrderedDict([('pic', u'pic/3.png'), ('ans', ['num_3']), ('cla', u'abb'), ('no', 40)])
+252.5449 	EXP 	point_for: autoDraw = False
+252.5449 	EXP 	image_for: autoDraw = False
+252.5449 	EXP 	image_for: image = u'pic/3.png'
+252.5449 	EXP 	point_for: autoDraw = True
+253.4644 	EXP 	point_for: autoDraw = False
+253.4814 	EXP 	image_for: autoDraw = True
+254.0999 	DATA 	Keypress: num_3
+254.1037 	EXP 	New trial (rep=0, index=44): OrderedDict([('pic', u'pic/8.png'), ('ans', ['num_8']), ('cla', u'abb'), ('no', 41)])
+254.1892 	EXP 	point_for: autoDraw = False
+254.1892 	EXP 	image_for: autoDraw = False
+254.1892 	EXP 	image_for: image = u'pic/8.png'
+254.1892 	EXP 	point_for: autoDraw = True
+255.1156 	EXP 	point_for: autoDraw = False
+255.1319 	EXP 	image_for: autoDraw = True
+255.7341 	DATA 	Keypress: num_8
+255.7371 	EXP 	New trial (rep=0, index=45): OrderedDict([('pic', u'pic/6.png'), ('ans', ['num_6']), ('cla', u'abb'), ('no', 42)])
+255.8267 	EXP 	point_for: autoDraw = False
+255.8267 	EXP 	image_for: autoDraw = False
+255.8267 	EXP 	image_for: image = u'pic/6.png'
+255.8267 	EXP 	point_for: autoDraw = True
+256.7504 	EXP 	point_for: autoDraw = False
+256.7674 	EXP 	image_for: autoDraw = True
+257.3525 	DATA 	Keypress: num_6
+257.3555 	EXP 	New trial (rep=0, index=46): OrderedDict([('pic', u'pic/6.png'), ('ans', ['num_6']), ('cla', u'abb'), ('no', 43)])
+257.4498 	EXP 	point_for: autoDraw = False
+257.4498 	EXP 	image_for: autoDraw = False
+257.4498 	EXP 	image_for: image = u'pic/6.png'
+257.4498 	EXP 	point_for: autoDraw = True
+258.3689 	EXP 	point_for: autoDraw = False
+258.3856 	EXP 	image_for: autoDraw = True
+258.9541 	DATA 	Keypress: num_6
+258.9573 	EXP 	New trial (rep=0, index=47): OrderedDict([('pic', u'pic/2.png'), ('ans', ['num_2']), ('cla', u'abb'), ('no', 44)])
+259.0439 	EXP 	point_for: autoDraw = False
+259.0439 	EXP 	image_for: autoDraw = False
+259.0439 	EXP 	image_for: image = u'pic/2.png'
+259.0439 	EXP 	point_for: autoDraw = True
+259.9706 	EXP 	point_for: autoDraw = False
+259.9871 	EXP 	image_for: autoDraw = True
+260.6730 	DATA 	Keypress: num_2
+260.6760 	EXP 	New trial (rep=0, index=48): OrderedDict([('pic', u'pic/6.png'), ('ans', ['num_6']), ('cla', u'abb'), ('no', 45)])
+260.7621 	EXP 	point_for: autoDraw = False
+260.7621 	EXP 	image_for: autoDraw = False
+260.7621 	EXP 	image_for: image = u'pic/6.png'
+260.7621 	EXP 	point_for: autoDraw = True
+261.6890 	EXP 	point_for: autoDraw = False
+261.7057 	EXP 	image_for: autoDraw = True
+262.1929 	DATA 	Keypress: num_6
+262.2124 	EXP 	New trial (rep=0, index=49): OrderedDict([('pic', u'pic/6.png'), ('ans', ['num_6']), ('cla', u'abb'), ('no', 46)])
+262.2965 	EXP 	point_for: autoDraw = False
+262.2965 	EXP 	image_for: autoDraw = False
+262.2965 	EXP 	image_for: image = u'pic/6.png'
+262.2965 	EXP 	point_for: autoDraw = True
+263.2235 	EXP 	point_for: autoDraw = False
+263.2406 	EXP 	image_for: autoDraw = True
+263.6260 	DATA 	Keypress: num_6
+263.6295 	EXP 	New trial (rep=0, index=50): OrderedDict([('pic', u'pic/1.png'), ('ans', ['num_1']), ('cla', u'huan'), ('no', -1)])
+263.7269 	EXP 	point_for: autoDraw = False
+263.7269 	EXP 	image_for: autoDraw = False
+263.7269 	EXP 	image_for: image = u'pic/1.png'
+263.7269 	EXP 	point_for: autoDraw = True
+264.6419 	EXP 	point_for: autoDraw = False
+264.6586 	EXP 	image_for: autoDraw = True
+265.6616 	DATA 	Keypress: num_1
+265.6652 	EXP 	New trial (rep=0, index=51): OrderedDict([('pic', u'pic/3.png'), ('ans', ['num_3']), ('cla', u'huan'), ('no', -1)])
+265.7533 	EXP 	point_for: autoDraw = False
+265.7533 	EXP 	image_for: autoDraw = False
+265.7533 	EXP 	image_for: image = u'pic/3.png'
+265.7533 	EXP 	point_for: autoDraw = True
+266.6776 	EXP 	point_for: autoDraw = False
+266.6942 	EXP 	image_for: autoDraw = True
+267.3134 	DATA 	Keypress: num_3
+267.3169 	EXP 	New trial (rep=0, index=52): OrderedDict([('pic', u'pic/2.png'), ('ans', ['num_2']), ('cla', u'wh'), ('no', 47)])
+267.4173 	EXP 	point_for: autoDraw = False
+267.4173 	EXP 	image_for: autoDraw = False
+267.4173 	EXP 	image_for: image = u'pic/2.png'
+267.4173 	EXP 	point_for: autoDraw = True
+268.3289 	EXP 	point_for: autoDraw = False
+268.3456 	EXP 	image_for: autoDraw = True
+268.9978 	DATA 	Keypress: num_2
+269.0009 	EXP 	New trial (rep=0, index=53): OrderedDict([('pic', u'pic/5.png'), ('ans', ['num_5']), ('cla', u'wh'), ('no', 48)])
+269.0844 	EXP 	point_for: autoDraw = False
+269.0844 	EXP 	image_for: autoDraw = False
+269.0844 	EXP 	image_for: image = u'pic/5.png'
+269.0844 	EXP 	point_for: autoDraw = True
+270.0136 	EXP 	point_for: autoDraw = False
+270.0303 	EXP 	image_for: autoDraw = True
+270.4492 	DATA 	Keypress: num_5
+270.4524 	EXP 	New trial (rep=0, index=54): OrderedDict([('pic', u'pic/8.png'), ('ans', ['num_8']), ('cla', u'wh'), ('no', 49)])
+270.5642 	EXP 	point_for: autoDraw = False
+270.5642 	EXP 	image_for: autoDraw = False
+270.5642 	EXP 	image_for: image = u'pic/8.png'
+270.5642 	EXP 	point_for: autoDraw = True
+271.4655 	EXP 	point_for: autoDraw = False
+271.4815 	EXP 	image_for: autoDraw = True
+272.2507 	DATA 	Keypress: num_8
+272.2539 	EXP 	New trial (rep=0, index=55): OrderedDict([('pic', u'pic/7.png'), ('ans', ['num_7']), ('cla', u'wh'), ('no', 50)])
+272.3410 	EXP 	point_for: autoDraw = False
+272.3410 	EXP 	image_for: autoDraw = False
+272.3410 	EXP 	image_for: image = u'pic/7.png'
+272.3410 	EXP 	point_for: autoDraw = True
+273.2673 	EXP 	point_for: autoDraw = False
+273.2838 	EXP 	image_for: autoDraw = True
+273.8365 	DATA 	Keypress: num_7
+273.8400 	EXP 	New trial (rep=0, index=56): OrderedDict([('pic', u'pic/8.png'), ('ans', ['num_8']), ('cla', u'wh'), ('no', 51)])
+273.9381 	EXP 	point_for: autoDraw = False
+273.9381 	EXP 	image_for: autoDraw = False
+273.9381 	EXP 	image_for: image = u'pic/8.png'
+273.9381 	EXP 	point_for: autoDraw = True
+274.8522 	EXP 	point_for: autoDraw = False
+274.8685 	EXP 	image_for: autoDraw = True
+275.5541 	DATA 	Keypress: num_8
+275.5572 	EXP 	New trial (rep=0, index=57): OrderedDict([('pic', u'pic/9.png'), ('ans', ['num_9']), ('cla', u'wh'), ('no', 52)])
+275.6500 	EXP 	point_for: autoDraw = False
+275.6500 	EXP 	image_for: autoDraw = False
+275.6500 	EXP 	image_for: image = u'pic/9.png'
+275.6500 	EXP 	point_for: autoDraw = True
+276.5703 	EXP 	point_for: autoDraw = False
+276.5871 	EXP 	image_for: autoDraw = True
+277.1724 	DATA 	Keypress: num_9
+277.1754 	EXP 	New trial (rep=0, index=58): OrderedDict([('pic', u'pic/2.png'), ('ans', ['num_2']), ('cla', u'wh'), ('no', 53)])
+277.2715 	EXP 	point_for: autoDraw = False
+277.2715 	EXP 	image_for: autoDraw = False
+277.2715 	EXP 	image_for: image = u'pic/2.png'
+277.2715 	EXP 	point_for: autoDraw = True
+278.1885 	EXP 	point_for: autoDraw = False
+278.2054 	EXP 	image_for: autoDraw = True
+278.9575 	DATA 	Keypress: num_2
+278.9605 	EXP 	New trial (rep=0, index=59): OrderedDict([('pic', u'pic/5.png'), ('ans', ['num_5']), ('cla', u'wh'), ('no', 54)])
+279.0551 	EXP 	point_for: autoDraw = False
+279.0551 	EXP 	image_for: autoDraw = False
+279.0551 	EXP 	image_for: image = u'pic/5.png'
+279.0551 	EXP 	point_for: autoDraw = True
+279.9742 	EXP 	point_for: autoDraw = False
+279.9905 	EXP 	image_for: autoDraw = True
+280.4427 	DATA 	Keypress: num_5
+280.4462 	EXP 	New trial (rep=0, index=60): OrderedDict([('pic', u'pic/8.png'), ('ans', ['num_8']), ('cla', u'wh'), ('no', 55)])
+280.5471 	EXP 	point_for: autoDraw = False
+280.5471 	EXP 	image_for: autoDraw = False
+280.5471 	EXP 	image_for: image = u'pic/8.png'
+280.5471 	EXP 	point_for: autoDraw = True
+281.4591 	EXP 	point_for: autoDraw = False
+281.4758 	EXP 	image_for: autoDraw = True
+282.0279 	DATA 	Keypress: num_8
+282.0314 	EXP 	New trial (rep=0, index=61): OrderedDict([('pic', u'pic/4.png'), ('ans', ['num_4']), ('cla', u'wh'), ('no', 56)])
+282.1185 	EXP 	point_for: autoDraw = False
+282.1185 	EXP 	image_for: autoDraw = False
+282.1185 	EXP 	image_for: image = u'pic/4.png'
+282.1185 	EXP 	point_for: autoDraw = True
+283.0432 	EXP 	point_for: autoDraw = False
+283.0603 	EXP 	image_for: autoDraw = True
+283.4962 	DATA 	Keypress: num_4
+283.4998 	EXP 	New trial (rep=0, index=62): OrderedDict([('pic', u'pic/5.png'), ('ans', ['num_5']), ('cla', u'wh'), ('no', 57)])
+283.6046 	EXP 	point_for: autoDraw = False
+283.6046 	EXP 	image_for: autoDraw = False
+283.6046 	EXP 	image_for: image = u'pic/5.png'
+283.6046 	EXP 	point_for: autoDraw = True
+284.5121 	EXP 	point_for: autoDraw = False
+284.5288 	EXP 	image_for: autoDraw = True
+284.9312 	DATA 	Keypress: num_5
+284.9355 	EXP 	New trial (rep=0, index=63): OrderedDict([('pic', u'pic/6.png'), ('ans', ['num_6']), ('cla', u'wh'), ('no', 58)])
+285.0508 	EXP 	point_for: autoDraw = False
+285.0508 	EXP 	image_for: autoDraw = False
+285.0508 	EXP 	image_for: image = u'pic/6.png'
+285.0508 	EXP 	point_for: autoDraw = True
+285.9465 	EXP 	point_for: autoDraw = False
+285.9633 	EXP 	image_for: autoDraw = True
+286.3651 	DATA 	Keypress: num_6
+286.3683 	EXP 	New trial (rep=0, index=64): OrderedDict([('pic', u'pic/3.png'), ('ans', ['num_3']), ('cla', u'cross'), ('no', 59)])
+286.4508 	EXP 	point_for: autoDraw = False
+286.4508 	EXP 	image_for: autoDraw = False
+286.4508 	EXP 	image_for: image = u'pic/3.png'
+286.4508 	EXP 	point_for: autoDraw = True
+287.3812 	EXP 	point_for: autoDraw = False
+287.3977 	EXP 	image_for: autoDraw = True
+288.0174 	DATA 	Keypress: num_3
+288.0356 	EXP 	New trial (rep=0, index=65): OrderedDict([('pic', u'pic/5.png'), ('ans', ['num_5']), ('cla', u'cross'), ('no', 60)])
+288.1477 	EXP 	point_for: autoDraw = False
+288.1477 	EXP 	image_for: autoDraw = False
+288.1477 	EXP 	image_for: image = u'pic/5.png'
+288.1477 	EXP 	point_for: autoDraw = True
+289.0496 	EXP 	point_for: autoDraw = False
+289.0663 	EXP 	image_for: autoDraw = True
+289.6347 	DATA 	Keypress: num_5
+289.6377 	EXP 	New trial (rep=0, index=66): OrderedDict([('pic', u'pic/7.png'), ('ans', ['num_7']), ('cla', u'cross'), ('no', 61)])
+289.7294 	EXP 	point_for: autoDraw = False
+289.7294 	EXP 	image_for: autoDraw = False
+289.7294 	EXP 	image_for: image = u'pic/7.png'
+289.7294 	EXP 	point_for: autoDraw = True
+290.6511 	EXP 	point_for: autoDraw = False
+290.6680 	EXP 	image_for: autoDraw = True
+291.3207 	DATA 	Keypress: num_7
+291.3390 	EXP 	New trial (rep=0, index=67): OrderedDict([('pic', u'pic/9.png'), ('ans', ['num_9']), ('cla', u'cross'), ('no', 62)])
+291.4207 	EXP 	point_for: autoDraw = False
+291.4207 	EXP 	image_for: autoDraw = False
+291.4207 	EXP 	image_for: image = u'pic/9.png'
+291.4207 	EXP 	point_for: autoDraw = True
+292.3533 	EXP 	point_for: autoDraw = False
+292.3699 	EXP 	image_for: autoDraw = True
+293.0552 	DATA 	Keypress: num_9
+293.0583 	EXP 	New trial (rep=0, index=68): OrderedDict([('pic', u'pic/5.png'), ('ans', ['num_5']), ('cla', u'cross'), ('no', 63)])
+293.1412 	EXP 	point_for: autoDraw = False
+293.1412 	EXP 	image_for: autoDraw = False
+293.1412 	EXP 	image_for: image = u'pic/5.png'
+293.1412 	EXP 	point_for: autoDraw = True
+294.0712 	EXP 	point_for: autoDraw = False
+294.0880 	EXP 	image_for: autoDraw = True
+294.5243 	DATA 	Keypress: num_5
+294.5275 	EXP 	New trial (rep=0, index=69): OrderedDict([('pic', u'pic/1.png'), ('ans', ['num_1']), ('cla', u'cross'), ('no', 64)])
+294.6111 	EXP 	point_for: autoDraw = False
+294.6111 	EXP 	image_for: autoDraw = False
+294.6111 	EXP 	image_for: image = u'pic/1.png'
+294.6111 	EXP 	point_for: autoDraw = True
+295.5395 	EXP 	point_for: autoDraw = False
+295.5561 	EXP 	image_for: autoDraw = True
+296.2914 	DATA 	Keypress: num_1
+296.2945 	EXP 	New trial (rep=0, index=70): OrderedDict([('pic', u'pic/9.png'), ('ans', ['num_9']), ('cla', u'cross'), ('no', 65)])
+296.3930 	EXP 	point_for: autoDraw = False
+296.3930 	EXP 	image_for: autoDraw = False
+296.3930 	EXP 	image_for: image = u'pic/9.png'
+296.3930 	EXP 	point_for: autoDraw = True
+297.3078 	EXP 	point_for: autoDraw = False
+297.3246 	EXP 	image_for: autoDraw = True
+297.9937 	DATA 	Keypress: num_9
+297.9972 	EXP 	New trial (rep=0, index=71): OrderedDict([('pic', u'pic/5.png'), ('ans', ['num_5']), ('cla', u'cross'), ('no', 66)])
+298.0963 	EXP 	point_for: autoDraw = False
+298.0963 	EXP 	image_for: autoDraw = False
+298.0963 	EXP 	image_for: image = u'pic/5.png'
+298.0963 	EXP 	point_for: autoDraw = True
+299.0099 	EXP 	point_for: autoDraw = False
+299.0260 	EXP 	image_for: autoDraw = True
+299.4625 	DATA 	Keypress: num_5
+299.4674 	EXP 	New trial (rep=0, index=72): OrderedDict([('pic', u'pic/1.png'), ('ans', ['num_1']), ('cla', u'cross'), ('no', 67)])
+299.5450 	EXP 	point_for: autoDraw = False
+299.5450 	EXP 	image_for: autoDraw = False
+299.5450 	EXP 	image_for: image = u'pic/1.png'
+299.5450 	EXP 	point_for: autoDraw = True
+300.4776 	EXP 	point_for: autoDraw = False
+300.4944 	EXP 	image_for: autoDraw = True
+301.2653 	DATA 	Keypress: num_1
+301.2822 	EXP 	New trial (rep=0, index=73): OrderedDict([('pic', u'pic/9.png'), ('ans', ['num_9']), ('cla', u'cross'), ('no', 68)])
+301.3760 	EXP 	point_for: autoDraw = False
+301.3760 	EXP 	image_for: autoDraw = False
+301.3760 	EXP 	image_for: image = u'pic/9.png'
+301.3760 	EXP 	point_for: autoDraw = True
+302.2959 	EXP 	point_for: autoDraw = False
+302.3128 	EXP 	image_for: autoDraw = True
+303.0158 	DATA 	Keypress: num_9
+303.0193 	EXP 	New trial (rep=0, index=74): OrderedDict([('pic', u'pic/5.png'), ('ans', ['num_5']), ('cla', u'cross'), ('no', 69)])
+303.1059 	EXP 	point_for: autoDraw = False
+303.1059 	EXP 	image_for: autoDraw = False
+303.1059 	EXP 	image_for: image = u'pic/5.png'
+303.1059 	EXP 	point_for: autoDraw = True
+304.0316 	EXP 	point_for: autoDraw = False
+304.0483 	EXP 	image_for: autoDraw = True
+304.4514 	DATA 	Keypress: num_5
+304.4548 	EXP 	New trial (rep=0, index=75): OrderedDict([('pic', u'pic/1.png'), ('ans', ['num_1']), ('cla', u'cross'), ('no', 70)])
+304.5473 	EXP 	point_for: autoDraw = False
+304.5473 	EXP 	image_for: autoDraw = False
+304.5473 	EXP 	image_for: image = u'pic/1.png'
+304.5473 	EXP 	point_for: autoDraw = True
+305.4660 	EXP 	point_for: autoDraw = False
+305.4824 	EXP 	image_for: autoDraw = True
+306.1013 	DATA 	Keypress: num_1
+306.1043 	EXP 	New trial (rep=0, index=76): OrderedDict([('pic', u'pic/6.png'), ('ans', ['num_6']), ('cla', u'huan'), ('no', -1)])
+306.1978 	EXP 	point_for: autoDraw = False
+306.1978 	EXP 	image_for: autoDraw = False
+306.1978 	EXP 	image_for: image = u'pic/6.png'
+306.1978 	EXP 	point_for: autoDraw = True
+307.1171 	EXP 	point_for: autoDraw = False
+307.1343 	EXP 	image_for: autoDraw = True
+307.5528 	DATA 	Keypress: num_6
+307.5716 	EXP 	New trial (rep=0, index=77): OrderedDict([('pic', u'pic/4.png'), ('ans', ['num_4']), ('cla', u'huan'), ('no', -1)])
+307.6586 	EXP 	point_for: autoDraw = False
+307.6586 	EXP 	image_for: autoDraw = False
+307.6586 	EXP 	image_for: image = u'pic/4.png'
+307.6586 	EXP 	point_for: autoDraw = True
+308.5859 	EXP 	point_for: autoDraw = False
+308.6025 	EXP 	image_for: autoDraw = True
+309.0212 	DATA 	Keypress: num_4
+309.0244 	EXP 	New trial (rep=0, index=78): OrderedDict([('pic', u'pic/7.png'), ('ans', ['num_7']), ('cla', u'abc3'), ('no', 71)])
+309.1234 	EXP 	point_for: autoDraw = False
+309.1234 	EXP 	image_for: autoDraw = False
+309.1234 	EXP 	image_for: image = u'pic/7.png'
+309.1234 	EXP 	point_for: autoDraw = True
+310.0376 	EXP 	point_for: autoDraw = False
+310.0542 	EXP 	image_for: autoDraw = True
+310.6392 	DATA 	Keypress: num_7
+310.6422 	EXP 	New trial (rep=0, index=79): OrderedDict([('pic', u'pic/1.png'), ('ans', ['num_1']), ('cla', u'abc3'), ('no', 72)])
+310.7372 	EXP 	point_for: autoDraw = False
+310.7372 	EXP 	image_for: autoDraw = False
+310.7372 	EXP 	image_for: image = u'pic/1.png'
+310.7372 	EXP 	point_for: autoDraw = True
+311.6556 	EXP 	point_for: autoDraw = False
+311.6722 	EXP 	image_for: autoDraw = True
+312.3241 	DATA 	Keypress: num_1
+312.3271 	EXP 	New trial (rep=0, index=80): OrderedDict([('pic', u'pic/6.png'), ('ans', ['num_6']), ('cla', u'abc3'), ('no', 73)])
+312.4273 	EXP 	point_for: autoDraw = False
+312.4273 	EXP 	image_for: autoDraw = False
+312.4273 	EXP 	image_for: image = u'pic/6.png'
+312.4273 	EXP 	point_for: autoDraw = True
+313.3405 	EXP 	point_for: autoDraw = False
+313.3571 	EXP 	image_for: autoDraw = True
+313.7761 	DATA 	Keypress: num_6
+313.7803 	EXP 	New trial (rep=0, index=81): OrderedDict([('pic', u'pic/7.png'), ('ans', ['num_7']), ('cla', u'abc3'), ('no', 74)])
+313.8706 	EXP 	point_for: autoDraw = False
+313.8706 	EXP 	image_for: autoDraw = False
+313.8706 	EXP 	image_for: image = u'pic/7.png'
+313.8706 	EXP 	point_for: autoDraw = True
+314.7919 	EXP 	point_for: autoDraw = False
+314.8087 	EXP 	image_for: autoDraw = True
+315.4105 	DATA 	Keypress: num_7
+315.4136 	EXP 	New trial (rep=0, index=82): OrderedDict([('pic', u'pic/1.png'), ('ans', ['num_1']), ('cla', u'abc3'), ('no', 75)])
+315.4964 	EXP 	point_for: autoDraw = False
+315.4964 	EXP 	image_for: autoDraw = False
+315.4964 	EXP 	image_for: image = u'pic/1.png'
+315.4964 	EXP 	point_for: autoDraw = True
+316.4268 	EXP 	point_for: autoDraw = False
+316.4435 	EXP 	image_for: autoDraw = True
+317.1125 	DATA 	Keypress: num_1
+317.1306 	EXP 	New trial (rep=0, index=83): OrderedDict([('pic', u'pic/6.png'), ('ans', ['num_6']), ('cla', u'abc3'), ('no', 76)])
+317.2071 	EXP 	point_for: autoDraw = False
+317.2071 	EXP 	image_for: autoDraw = False
+317.2071 	EXP 	image_for: image = u'pic/6.png'
+317.2071 	EXP 	point_for: autoDraw = True
+318.1453 	EXP 	point_for: autoDraw = False
+318.1615 	EXP 	image_for: autoDraw = True
+318.5804 	DATA 	Keypress: num_6
+318.5833 	EXP 	New trial (rep=0, index=84): OrderedDict([('pic', u'pic/7.png'), ('ans', ['num_7']), ('cla', u'abc3'), ('no', 77)])
+318.6784 	EXP 	point_for: autoDraw = False
+318.6784 	EXP 	image_for: autoDraw = False
+318.6784 	EXP 	image_for: image = u'pic/7.png'
+318.6784 	EXP 	point_for: autoDraw = True
+319.5967 	EXP 	point_for: autoDraw = False
+319.6134 	EXP 	image_for: autoDraw = True
+320.2486 	DATA 	Keypress: num_7
+320.2516 	EXP 	New trial (rep=0, index=85): OrderedDict([('pic', u'pic/1.png'), ('ans', ['num_1']), ('cla', u'abc3'), ('no', 78)])
+320.3439 	EXP 	point_for: autoDraw = False
+320.3439 	EXP 	image_for: autoDraw = False
+320.3439 	EXP 	image_for: image = u'pic/1.png'
+320.3439 	EXP 	point_for: autoDraw = True
+321.2651 	EXP 	point_for: autoDraw = False
+321.2815 	EXP 	image_for: autoDraw = True
+321.9515 	DATA 	Keypress: num_1
+321.9551 	EXP 	New trial (rep=0, index=86): OrderedDict([('pic', u'pic/6.png'), ('ans', ['num_6']), ('cla', u'abc3'), ('no', 79)])
+322.0637 	EXP 	point_for: autoDraw = False
+322.0637 	EXP 	image_for: autoDraw = False
+322.0637 	EXP 	image_for: image = u'pic/6.png'
+322.0637 	EXP 	point_for: autoDraw = True
+322.9668 	EXP 	point_for: autoDraw = False
+322.9836 	EXP 	image_for: autoDraw = True
+323.3850 	DATA 	Keypress: num_6
+323.3880 	EXP 	New trial (rep=0, index=87): OrderedDict([('pic', u'pic/4.png'), ('ans', ['num_4']), ('cla', u'abc3'), ('no', 80)])
+323.4802 	EXP 	point_for: autoDraw = False
+323.4802 	EXP 	image_for: autoDraw = False
+323.4802 	EXP 	image_for: image = u'pic/4.png'
+323.4802 	EXP 	point_for: autoDraw = True
+324.4017 	EXP 	point_for: autoDraw = False
+324.4183 	EXP 	image_for: autoDraw = True
+324.8364 	DATA 	Keypress: num_4
+324.8394 	EXP 	New trial (rep=0, index=88): OrderedDict([('pic', u'pic/1.png'), ('ans', ['num_1']), ('cla', u'abc3'), ('no', 81)])
+324.9296 	EXP 	point_for: autoDraw = False
+324.9296 	EXP 	image_for: autoDraw = False
+324.9296 	EXP 	image_for: image = u'pic/1.png'
+324.9296 	EXP 	point_for: autoDraw = True
+325.8531 	EXP 	point_for: autoDraw = False
+325.8697 	EXP 	image_for: autoDraw = True
+326.4549 	DATA 	Keypress: num_1
+326.4581 	EXP 	New trial (rep=0, index=89): OrderedDict([('pic', u'pic/5.png'), ('ans', ['num_5']), ('cla', u'abc3'), ('no', 82)])
+326.5436 	EXP 	point_for: autoDraw = False
+326.5436 	EXP 	image_for: autoDraw = False
+326.5436 	EXP 	image_for: image = u'pic/5.png'
+326.5436 	EXP 	point_for: autoDraw = True
+327.4713 	EXP 	point_for: autoDraw = False
+327.4878 	EXP 	image_for: autoDraw = True
+327.8898 	DATA 	Keypress: num_5
+327.8928 	EXP 	New trial (rep=0, index=90): OrderedDict([('pic', u'pic/4.png'), ('ans', ['num_4']), ('cla', u'abc3'), ('no', 83)])
+327.9864 	EXP 	point_for: autoDraw = False
+327.9864 	EXP 	image_for: autoDraw = False
+327.9864 	EXP 	image_for: image = u'pic/4.png'
+327.9864 	EXP 	point_for: autoDraw = True
+328.9061 	EXP 	point_for: autoDraw = False
+328.9223 	EXP 	image_for: autoDraw = True
+329.3427 	DATA 	Keypress: num_4
+329.3469 	EXP 	New trial (rep=0, index=91): OrderedDict([('pic', u'pic/1.png'), ('ans', ['num_1']), ('cla', u'abc3'), ('no', 84)])
+329.4327 	EXP 	point_for: autoDraw = False
+329.4327 	EXP 	image_for: autoDraw = False
+329.4327 	EXP 	image_for: image = u'pic/1.png'
+329.4327 	EXP 	point_for: autoDraw = True
+330.3578 	EXP 	point_for: autoDraw = False
+330.3746 	EXP 	image_for: autoDraw = True
+330.9594 	DATA 	Keypress: num_1
+330.9629 	EXP 	New trial (rep=0, index=92): OrderedDict([('pic', u'pic/5.png'), ('ans', ['num_5']), ('cla', u'abc3'), ('no', 85)])
+331.0580 	EXP 	point_for: autoDraw = False
+331.0580 	EXP 	image_for: autoDraw = False
+331.0580 	EXP 	image_for: image = u'pic/5.png'
+331.0580 	EXP 	point_for: autoDraw = True
+331.9758 	EXP 	point_for: autoDraw = False
+331.9927 	EXP 	image_for: autoDraw = True
+332.3942 	DATA 	Keypress: num_5
+332.3979 	EXP 	New trial (rep=0, index=93): OrderedDict([('pic', u'pic/4.png'), ('ans', ['num_4']), ('cla', u'abc3'), ('no', 86)])
+332.4939 	EXP 	point_for: autoDraw = False
+332.4939 	EXP 	image_for: autoDraw = False
+332.4939 	EXP 	image_for: image = u'pic/4.png'
+332.4939 	EXP 	point_for: autoDraw = True
+333.4107 	EXP 	point_for: autoDraw = False
+333.4268 	EXP 	image_for: autoDraw = True
+333.8457 	DATA 	Keypress: num_4
+333.8487 	EXP 	New trial (rep=0, index=94): OrderedDict([('pic', u'pic/1.png'), ('ans', ['num_1']), ('cla', u'abc3'), ('no', 87)])
+333.9430 	EXP 	point_for: autoDraw = False
+333.9430 	EXP 	image_for: autoDraw = False
+333.9430 	EXP 	image_for: image = u'pic/1.png'
+333.9430 	EXP 	point_for: autoDraw = True
+334.8623 	EXP 	point_for: autoDraw = False
+334.8791 	EXP 	image_for: autoDraw = True
+335.4647 	DATA 	Keypress: num_1
+335.4832 	EXP 	New trial (rep=0, index=95): OrderedDict([('pic', u'pic/5.png'), ('ans', ['num_5']), ('cla', u'abc3'), ('no', 88)])
+335.5840 	EXP 	point_for: autoDraw = False
+335.5840 	EXP 	image_for: autoDraw = False
+335.5840 	EXP 	image_for: image = u'pic/5.png'
+335.5840 	EXP 	point_for: autoDraw = True
+336.4973 	EXP 	point_for: autoDraw = False
+336.5141 	EXP 	image_for: autoDraw = True
+336.8658 	DATA 	Keypress: num_5
+336.8698 	EXP 	New trial (rep=0, index=96): OrderedDict([('pic', u'pic/8.png'), ('ans', ['num_8']), ('cla', u'abc3'), ('no', 89)])
+336.9569 	EXP 	point_for: autoDraw = False
+336.9569 	EXP 	image_for: autoDraw = False
+336.9569 	EXP 	image_for: image = u'pic/8.png'
+336.9569 	EXP 	point_for: autoDraw = True
+337.8820 	EXP 	point_for: autoDraw = False
+337.8981 	EXP 	image_for: autoDraw = True
+338.5008 	DATA 	Keypress: num_8
+338.5044 	EXP 	New trial (rep=0, index=97): OrderedDict([('pic', u'pic/9.png'), ('ans', ['num_9']), ('cla', u'abc3'), ('no', 90)])
+338.6146 	EXP 	point_for: autoDraw = False
+338.6146 	EXP 	image_for: autoDraw = False
+338.6146 	EXP 	image_for: image = u'pic/9.png'
+338.6146 	EXP 	point_for: autoDraw = True
+339.5167 	EXP 	point_for: autoDraw = False
+339.5333 	EXP 	image_for: autoDraw = True
+340.1357 	DATA 	Keypress: num_9
+340.1392 	EXP 	New trial (rep=0, index=98): OrderedDict([('pic', u'pic/3.png'), ('ans', ['num_3']), ('cla', u'abc3'), ('no', 91)])
+340.2389 	EXP 	point_for: autoDraw = False
+340.2389 	EXP 	image_for: autoDraw = False
+340.2389 	EXP 	image_for: image = u'pic/3.png'
+340.2389 	EXP 	point_for: autoDraw = True
+341.1516 	EXP 	point_for: autoDraw = False
+341.1682 	EXP 	image_for: autoDraw = True
+342.0884 	DATA 	Keypress: num_3
+342.0919 	EXP 	New trial (rep=0, index=99): OrderedDict([('pic', u'pic/8.png'), ('ans', ['num_8']), ('cla', u'abc3'), ('no', 92)])
+342.2013 	EXP 	point_for: autoDraw = False
+342.2013 	EXP 	image_for: autoDraw = False
+342.2013 	EXP 	image_for: image = u'pic/8.png'
+342.2013 	EXP 	point_for: autoDraw = True
+343.1041 	EXP 	point_for: autoDraw = False
+343.1207 	EXP 	image_for: autoDraw = True
+343.7060 	DATA 	Keypress: num_8
+343.7097 	EXP 	New trial (rep=0, index=100): OrderedDict([('pic', u'pic/9.png'), ('ans', ['num_9']), ('cla', u'abc3'), ('no', 93)])
+343.8150 	EXP 	point_for: autoDraw = False
+343.8150 	EXP 	image_for: autoDraw = False
+343.8150 	EXP 	image_for: image = u'pic/9.png'
+343.8150 	EXP 	point_for: autoDraw = True
+344.7224 	EXP 	point_for: autoDraw = False
+344.7387 	EXP 	image_for: autoDraw = True
+345.3577 	DATA 	Keypress: num_9
+345.3611 	EXP 	New trial (rep=0, index=101): OrderedDict([('pic', u'pic/3.png'), ('ans', ['num_3']), ('cla', u'abc3'), ('no', 94)])
+345.4579 	EXP 	point_for: autoDraw = False
+345.4579 	EXP 	image_for: autoDraw = False
+345.4579 	EXP 	image_for: image = u'pic/3.png'
+345.4579 	EXP 	point_for: autoDraw = True
+346.3736 	EXP 	point_for: autoDraw = False
+346.3901 	EXP 	image_for: autoDraw = True
+347.0095 	DATA 	Keypress: num_3
+347.0151 	EXP 	New trial (rep=0, index=102): OrderedDict([('pic', u'pic/8.png'), ('ans', ['num_8']), ('cla', u'abc3'), ('no', 95)])
+347.1126 	EXP 	point_for: autoDraw = False
+347.1126 	EXP 	image_for: autoDraw = False
+347.1126 	EXP 	image_for: image = u'pic/8.png'
+347.1126 	EXP 	point_for: autoDraw = True
+348.0256 	EXP 	point_for: autoDraw = False
+348.0419 	EXP 	image_for: autoDraw = True
+348.6443 	DATA 	Keypress: num_8
+348.6478 	EXP 	New trial (rep=0, index=103): OrderedDict([('pic', u'pic/9.png'), ('ans', ['num_9']), ('cla', u'abc3'), ('no', 96)])
+348.7442 	EXP 	point_for: autoDraw = False
+348.7442 	EXP 	image_for: autoDraw = False
+348.7442 	EXP 	image_for: image = u'pic/9.png'
+348.7442 	EXP 	point_for: autoDraw = True
+349.6601 	EXP 	point_for: autoDraw = False
+349.6763 	EXP 	image_for: autoDraw = True
+350.3638 	DATA 	Keypress: num_9
+350.3675 	EXP 	New trial (rep=0, index=104): OrderedDict([('pic', u'pic/3.png'), ('ans', ['num_3']), ('cla', u'abc3'), ('no', 97)])
+350.4658 	EXP 	point_for: autoDraw = False
+350.4658 	EXP 	image_for: autoDraw = False
+350.4658 	EXP 	image_for: image = u'pic/3.png'
+350.4658 	EXP 	point_for: autoDraw = True
+351.3786 	EXP 	point_for: autoDraw = False
+351.3951 	EXP 	image_for: autoDraw = True
+352.0476 	DATA 	Keypress: num_3
+352.7550 	EXP 	window1: mouseVisible = True

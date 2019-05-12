@@ -1,0 +1,286 @@
+<?xml version="1.0" ?>
+<PsychoPy2experiment encoding="utf-8" version="1.90.3">
+  <Settings>
+    <Param name="Monitor" updates="None" val="testMonitor" valType="str"/>
+    <Param name="color" updates="None" val="white" valType="str"/>
+    <Param name="colorSpace" updates="None" val="rgb" valType="str"/>
+    <Param name="Experiment info" updates="None" val="{u'session': u'001', u'participant': u''}" valType="code"/>
+    <Param name="JS libs" updates="None" val="packaged" valType="str"/>
+    <Param name="Units" updates="None" val="height" valType="str"/>
+    <Param name="Save excel file" updates="None" val="False" valType="bool"/>
+    <Param name="Enable Escape" updates="None" val="True" valType="bool"/>
+    <Param name="Save psydat file" updates="None" val="True" valType="bool"/>
+    <Param name="Window size (pixels)" updates="None" val="[1200, 800]" valType="code"/>
+    <Param name="Full-screen window" updates="None" val="True" valType="bool"/>
+    <Param name="blendMode" updates="None" val="avg" valType="str"/>
+    <Param name="Use version" updates="None" val="1.90.3" valType="str"/>
+    <Param name="HTML path" updates="None" val="html" valType="str"/>
+    <Param name="Save csv file" updates="None" val="False" valType="bool"/>
+    <Param name="OSF Project ID" updates="None" val="" valType="str"/>
+    <Param name="Save log file" updates="None" val="True" valType="bool"/>
+    <Param name="Save wide csv file" updates="None" val="True" valType="bool"/>
+    <Param name="exportHTML" updates="None" val="on Sync" valType="str"/>
+    <Param name="Force stereo" updates="None" val="True" valType="bool"/>
+    <Param name="Show mouse" updates="None" val="False" valType="bool"/>
+    <Param name="Data filename" updates="None" val="u'data/%s_%s_%s' % (expInfo['participant'], expName, expInfo['date'])" valType="code"/>
+    <Param name="Show info dlg" updates="None" val="True" valType="bool"/>
+    <Param name="Incomplete URL" updates="None" val="" valType="str"/>
+    <Param name="expName" updates="None" val="exp" valType="str"/>
+    <Param name="logging level" updates="None" val="exp" valType="code"/>
+    <Param name="Completed URL" updates="None" val="" valType="str"/>
+    <Param name="Screen" updates="None" val="1" valType="num"/>
+  </Settings>
+  <Routines>
+    <Routine name="click_re">
+      <ImageComponent name="image">
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="name" updates="None" val="image" valType="code"/>
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="mask" updates="constant" val="None" valType="str"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="condition" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="set every repeat" val="$pic" valType="str"/>
+        <Param name="size" updates="constant" val="(0.5, 0.5)" valType="code"/>
+      </ImageComponent>
+      <KeyboardComponent name="key_resp_prac">
+        <Param name="correctAns" updates="constant" val="$ans" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="key_resp_prac" valType="code"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="allowedKeys" updates="set every repeat" val="ans" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="que_omri">
+      <RatingScaleComponent name="rating_omri">
+        <Param name="labels" updates="constant" val="" valType="str"/>
+        <Param name="pos" updates="constant" val="0, -0.4" valType="str"/>
+        <Param name="high" updates="constant" val="5" valType="code"/>
+        <Param name="storeRating" updates="constant" val="True" valType="bool"/>
+        <Param name="marker" updates="constant" val="triangle" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="markerStart" updates="constant" val="" valType="str"/>
+        <Param name="disappear" updates="constant" val="False" valType="bool"/>
+        <Param name="size" updates="constant" val="1.0" valType="code"/>
+        <Param name="tickHeight" updates="constant" val="" valType="str"/>
+        <Param name="showAccept" updates="constant" val="True" valType="bool"/>
+        <Param name="storeRatingTime" updates="constant" val="False" valType="bool"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="low" updates="constant" val="1" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="visualAnalogScale" updates="constant" val="False" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="stopType" updates="None" val="condition" valType="str"/>
+        <Param name="scaleDescription" updates="constant" val="" valType="str"/>
+        <Param name="storeHistory" updates="constant" val="False" valType="bool"/>
+        <Param name="categoryChoices" updates="constant" val="" valType="str"/>
+        <Param name="customize_everything" updates="constant" val="textColor = 'black', marker = 'triangle', acceptPreText=None,low=1, high=5, precision=1, choices=('1', '2','3','4','5'),noMouse=True, scale=None, markerStart = None,stretch = 2" valType="str"/>
+        <Param name="name" updates="None" val="rating_omri" valType="code"/>
+        <Param name="singleClick" updates="constant" val="False" valType="bool"/>
+      </RatingScaleComponent>
+      <ImageComponent name="image_omri">
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="name" updates="None" val="image_omri" valType="code"/>
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="mask" updates="constant" val="None" valType="str"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="condition" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="set every repeat" val="$que" valType="str"/>
+        <Param name="size" updates="constant" val="(1.5, 1.5*5/120)" valType="code"/>
+      </ImageComponent>
+    </Routine>
+    <Routine name="ug_1">
+      <TextComponent name="ug_text_1">
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="name" updates="None" val="ug_text_1" valType="code"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+        <Param name="color" updates="constant" val="black" valType="str"/>
+        <Param name="text" updates="constant" val="你和一个人分配100元&amp;#10;&amp;#10;规则是他来分配，你来决定是否接受&amp;#10;&amp;#10;如果接受，就根据此方案分配。如果拒绝，则双方都不会得到钱&amp;#10;&amp;#10;（不考虑本次分配结束后双方进一步交换的可能性）。&amp;#10;&amp;#10;那么你是否接受你和他的金钱分配比例是1：99呢？" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0.2)" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="condition" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="font" updates="constant" val="Consolas" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.02" valType="code"/>
+      </TextComponent>
+      <RatingScaleComponent name="rating_ug1">
+        <Param name="labels" updates="constant" val="否, 是" valType="str"/>
+        <Param name="pos" updates="constant" val="0, -0.6" valType="str"/>
+        <Param name="high" updates="constant" val="1" valType="code"/>
+        <Param name="storeRating" updates="constant" val="True" valType="bool"/>
+        <Param name="marker" updates="constant" val="triangle" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="markerStart" updates="constant" val="0.5" valType="str"/>
+        <Param name="disappear" updates="constant" val="False" valType="bool"/>
+        <Param name="size" updates="constant" val="1.0" valType="code"/>
+        <Param name="tickHeight" updates="constant" val="" valType="str"/>
+        <Param name="showAccept" updates="constant" val="False" valType="bool"/>
+        <Param name="storeRatingTime" updates="constant" val="False" valType="bool"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="low" updates="constant" val="0" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="visualAnalogScale" updates="constant" val="False" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="stopType" updates="None" val="condition" valType="str"/>
+        <Param name="scaleDescription" updates="constant" val="" valType="str"/>
+        <Param name="storeHistory" updates="constant" val="False" valType="bool"/>
+        <Param name="categoryChoices" updates="constant" val="" valType="str"/>
+        <Param name="customize_everything" updates="constant" val="textColor = 'black', marker = 'triangle',low=0, high=1, precision=1, labels = ('No','Yes'), noMouse=True, scale=None, markerStart = None,stretch = 2" valType="str"/>
+        <Param name="name" updates="None" val="rating_ug1" valType="code"/>
+        <Param name="singleClick" updates="constant" val="False" valType="bool"/>
+      </RatingScaleComponent>
+    </Routine>
+    <Routine name="omri_wel">
+      <TextComponent name="omri_wel_text">
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="name" updates="None" val="omri_wel_text" valType="code"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+        <Param name="color" updates="constant" val="black" valType="str"/>
+        <Param name="text" updates="constant" val="“1”代表“完全不符合”，“2”代表“比较不符合”，“3”代表“一般”&amp;#10;&amp;#10;“4”代表“比较符合”，“5”代表“完全符合”" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="condition" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="font" updates="constant" val="Consolas" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.03" valType="code"/>
+      </TextComponent>
+      <KeyboardComponent name="omri_key">
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="omri_key" valType="code"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="allowedKeys" updates="constant" val="'space'" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="store" updates="constant" val="nothing" valType="str"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="wel">
+      <TextComponent name="text_wel">
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="name" updates="None" val="text_wel" valType="code"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+        <Param name="color" updates="constant" val="black" valType="str"/>
+        <Param name="text" updates="constant" val="你好&amp;#10;&amp;#10;你妈死了" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="condition" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="font" updates="constant" val="Consolas" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.1" valType="code"/>
+      </TextComponent>
+      <KeyboardComponent name="wel_key">
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="wel_key" valType="code"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="allowedKeys" updates="constant" val="'space'" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="store" updates="constant" val="nothing" valType="str"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+    </Routine>
+  </Routines>
+  <Flow>
+    <LoopInitiator loopType="TrialHandler" name="trials_c">
+      <Param name="conditionsFile" updates="None" val="pic\prac_click.csv" valType="str"/>
+      <Param name="name" updates="None" val="trials_c" valType="code"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="code"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="conditions" updates="None" val="[OrderedDict([('no', 1), ('pic', u'pic/1.png'), ('ha', u'practice'), ('ans', ['1'])]), OrderedDict([('no', 2), ('pic', u'pic/2.png'), ('ha', u'practice'), ('ans', ['2'])]), OrderedDict([('no', 3), ('pic', u'pic/3.png'), ('ha', u'practice'), ('ans', ['3'])]), OrderedDict([('no', 4), ('pic', u'pic/4.png'), ('ha', u'practice'), ('ans', ['4'])]), OrderedDict([('no', 5), ('pic', u'pic/5.png'), ('ha', u'practice'), ('ans', ['5'])]), OrderedDict([('no', 6), ('pic', u'pic/6.png'), ('ha', u'practice'), ('ans', ['6'])]), OrderedDict([('no', 7), ('pic', u'pic/7.png'), ('ha', u'practice'), ('ans', ['7'])]), OrderedDict([('no', 8), ('pic', u'pic/8.png'), ('ha', u'practice'), ('ans', ['8'])]), OrderedDict([('no', 9), ('pic', u'pic/9.png'), ('ha', u'practice'), ('ans', ['9'])]), OrderedDict([('no', 1), ('pic', u'pic/1.png'), ('ha', u'practice'), ('ans', ['1'])]), OrderedDict([('no', 2), ('pic', u'pic/2.png'), ('ha', u'practice'), ('ans', ['2'])]), OrderedDict([('no', 3), ('pic', u'pic/3.png'), ('ha', u'practice'), ('ans', ['3'])]), OrderedDict([('no', 4), ('pic', u'pic/4.png'), ('ha', u'practice'), ('ans', ['4'])]), OrderedDict([('no', 5), ('pic', u'pic/5.png'), ('ha', u'practice'), ('ans', ['5'])]), OrderedDict([('no', 6), ('pic', u'pic/6.png'), ('ha', u'practice'), ('ans', ['6'])]), OrderedDict([('no', 7), ('pic', u'pic/7.png'), ('ha', u'practice'), ('ans', ['7'])]), OrderedDict([('no', 8), ('pic', u'pic/8.png'), ('ha', u'practice'), ('ans', ['8'])]), OrderedDict([('no', 9), ('pic', u'pic/9.png'), ('ha', u'practice'), ('ans', ['9'])]), OrderedDict([('no', 1), ('pic', u'pic/1.png'), ('ha', u'practice'), ('ans', ['1'])]), OrderedDict([('no', 2), ('pic', u'pic/2.png'), ('ha', u'practice'), ('ans', ['2'])]), OrderedDict([('no', 3), ('pic', u'pic/3.png'), ('ha', u'practice'), ('ans', ['3'])]), OrderedDict([('no', 4), ('pic', u'pic/4.png'), ('ha', u'practice'), ('ans', ['4'])]), OrderedDict([('no', 5), ('pic', u'pic/5.png'), ('ha', u'practice'), ('ans', ['5'])]), OrderedDict([('no', 6), ('pic', u'pic/6.png'), ('ha', u'practice'), ('ans', ['6'])]), OrderedDict([('no', 7), ('pic', u'pic/7.png'), ('ha', u'practice'), ('ans', ['7'])]), OrderedDict([('no', 8), ('pic', u'pic/8.png'), ('ha', u'practice'), ('ans', ['8'])]), OrderedDict([('no', 9), ('pic', u'pic/9.png'), ('ha', u'practice'), ('ans', ['9'])])]" valType="str"/>
+      <Param name="Selected rows" updates="None" val="0" valType="str"/>
+    </LoopInitiator>
+    <Routine name="click_re"/>
+    <LoopTerminator name="trials_c"/>
+    <Routine name="wel"/>
+    <Routine name="omri_wel"/>
+    <LoopInitiator loopType="TrialHandler" name="omri">
+      <Param name="conditionsFile" updates="None" val="omri.xlsx" valType="str"/>
+      <Param name="name" updates="None" val="omri" valType="code"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+      <Param name="loopType" updates="None" val="sequential" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="code"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="conditions" updates="None" val="[OrderedDict([('no', 1), ('que', u'omri/omri1.jpg'), ('factor', u'GP1')]), OrderedDict([('no', 2), ('que', u'omri/omri2.jpg'), ('factor', u'GP2')]), OrderedDict([('no', 3), ('que', u'omri/omri3.jpg'), ('factor', u'GP3')]), OrderedDict([('no', 4), ('que', u'omri/omri4.jpg'), ('factor', u'GP4')]), OrderedDict([('no', 5), ('que', u'omri/omri5.jpg'), ('factor', u'GP5')]), OrderedDict([('no', 6), ('que', u'omri/omri6.jpg'), ('factor', u'InS1')]), OrderedDict([('no', 7), ('que', u'omri/omri7.jpg'), ('factor', u'InS2')]), OrderedDict([('no', 8), ('que', u'omri/omri8.jpg'), ('factor', u'InS3')]), OrderedDict([('no', 9), ('que', u'omri/omri9.jpg'), ('factor', u'InS4')]), OrderedDict([('no', 10), ('que', u'omri/omri10.jpg'), ('factor', u'InS5')]), OrderedDict([('no', 11), ('que', u'omri/omri11.jpg'), ('factor', u'Gen1')]), OrderedDict([('no', 12), ('que', u'omri/omri12.jpg'), ('factor', u'Gen2')]), OrderedDict([('no', 13), ('que', u'omri/omri13.jpg'), ('factor', u'Gen3')]), OrderedDict([('no', 14), ('que', u'omri/omri14.jpg'), ('factor', u'Gen4')]), OrderedDict([('no', 15), ('que', u'omri/omri15.jpg'), ('factor', u'Gen5')]), OrderedDict([('no', 16), ('que', u'omri/omri16.jpg'), ('factor', u'Gen6')])]" valType="str"/>
+      <Param name="Selected rows" updates="None" val="0" valType="str"/>
+    </LoopInitiator>
+    <Routine name="que_omri"/>
+    <LoopTerminator name="omri"/>
+    <Routine name="ug_1"/>
+  </Flow>
+</PsychoPy2experiment>
